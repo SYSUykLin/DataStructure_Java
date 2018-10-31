@@ -60,7 +60,7 @@ public class DenseGraph implements Graph {
         System.out.println(Graph);
     }
 
-    class adjIterator {
+    static class adjIterator implements Graph.adjIterator {
         private int s;
         private DenseGraph G;
         private int index;
@@ -69,6 +69,7 @@ public class DenseGraph implements Graph {
             this.s = v;
             G = graph;
         }
+
 
         public int begin() {
             if (!G.Graph.get(s).isEmpty()) {
@@ -101,7 +102,7 @@ public class DenseGraph implements Graph {
         denseGraph.show();
         for (int i = 0; i < 10; i++) {
             System.out.print(i + ": ");
-            DenseGraph.adjIterator adjInterator = denseGraph.new adjIterator(denseGraph, i);
+            DenseGraph.adjIterator adjInterator = new adjIterator(denseGraph, i);
             for (int w = adjInterator.begin(); !adjInterator.end(); w = adjInterator.next()){
                 System.out.print(w + " ");
             }

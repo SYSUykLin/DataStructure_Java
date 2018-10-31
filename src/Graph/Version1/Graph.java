@@ -6,4 +6,9 @@ public interface Graph {
     int V();
     int E();
     void show();
+    interface adjIterator{
+        int begin();
+        int next();
+        boolean end();
+    }
 }

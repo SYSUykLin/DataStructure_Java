@@ -50,7 +50,7 @@ public class SparseGraph implements Graph {
         System.out.println(Graph);
     }
 
-    class adjIterator{
+    static class adjIterator implements Graph.adjIterator{
         private int index;
         private int s;
         private SparseGraph G;
@@ -89,7 +89,7 @@ public class SparseGraph implements Graph {
 
         for (int i = 0; i < 10; i++) {
             System.out.print(i + ": ");
-            SparseGraph.adjIterator adjInterator = sparseGraph.new adjIterator(sparseGraph, i);
+            SparseGraph.adjIterator adjInterator = new adjIterator(sparseGraph, i);
             for (int w = adjInterator.begin(); !adjInterator.end(); w = adjInterator.next()){
                 System.out.print(w + " ");
             }
