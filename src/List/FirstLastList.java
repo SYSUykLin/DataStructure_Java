@@ -1,76 +1,75 @@
 package List;
 
-public class SingleLinkList {
-    private LinkNode firstNode;
-    private int count;
+import java.util.function.DoublePredicate;
 
-    public SingleLinkList() {
-        firstNode = null;
+public class FirstLastList {
+    private int count;
+    private DouleLinkNode firstNode;
+
+    public FirstLastList() {
         count = 0;
+        firstNode = null;
     }
 
     public void insertFirst(int id) {
-        LinkNode linkNode = new LinkNode(id);
-        linkNode.setNext(firstNode);
-        firstNode = linkNode;
+        DouleLinkNode douleLinkNode = new DouleLinkNode(id);
+        DouleLinkNode p = firstNode;
+        if (p != null)
+            p.setPrevious(douleLinkNode);
+        douleLinkNode.setNext(firstNode);
+        firstNode = douleLinkNode;
         count++;
     }
 
-    public void insertNode(int id, int index) {
+    public void insetNode(int id, int index) {
         if (index < 0 || index > count + 1) {
             throw new IllegalArgumentException("index must be in range[0, N+1]");
         }
-        LinkNode linkNode = new LinkNode(id);
         if (index == 1) {
-            linkNode.setNext(firstNode);
-            firstNode = linkNode;
+            insertFirst(id);
             count++;
             return;
         }
-        LinkNode p = firstNode, q = p;
+        DouleLinkNode douleLinkNode = new DouleLinkNode(id);
+        DouleLinkNode p, q;
+        p = q = firstNode;
         for (int i = 0; i < index - 1; i++) {
             q = p;
             p = p.getNext();
         }
-        q.setNext(linkNode);
-        linkNode.setNext(p);
+        douleLinkNode.setNext(p);
+        q.setNext(douleLinkNode);
+        douleLinkNode.setPrevious(q);
         count++;
     }
 
-    public LinkNode removeNode(int index) {
-        LinkNode p = firstNode, q = p, a = p;
+    public DouleLinkNode removeNode(int index) {
         if (index < 0 || index > count) {
             throw new IllegalArgumentException("index must be in range[0, N]");
         }
+        DouleLinkNode p = firstNode;
+
         if (index == 1) {
-            p = firstNode;
             firstNode = firstNode.getNext();
+            firstNode.setPrevious(null);
             count--;
             return p;
         }
+
         for (int i = 0; i < index - 1; i++) {
-            a = p;
             p = p.getNext();
-            q = p.getNext();
         }
-        a.setNext(q);
+        DouleLinkNode q, l;
+        q = p.getPrevious();
+        l = p.getNext();
+        q.setNext(l);
+        l.setPrevious(q);
+        count--;
         return p;
-
-    }
-
-    public LinkNode find(int id) {
-        LinkNode linkNode = firstNode;
-        while (linkNode != null) {
-            if (linkNode.getId() == id) {
-                return linkNode;
-            }
-            linkNode = linkNode.getNext();
-        }
-        return null;
     }
 
     public void display() {
-        LinkNode linkNode = firstNode;
+        DouleLinkNode linkNode = firstNode;
         while (linkNode != null) {
             linkNode.printNode();
             linkNode = linkNode.getNext();
@@ -78,19 +77,14 @@ public class SingleLinkList {
         System.out.println();
     }
 
-    public int count() {
-        return count;
-    }
-
-
     public static void main(String args[]) {
-        SingleLinkList singleLinkList = new SingleLinkList();
+        FirstLastList singleLinkList = new FirstLastList();
         for (int i = 0; i < 10; i++) {
             singleLinkList.insertFirst(i);
         }
         singleLinkList.display();
-        singleLinkList.insertNode(15, 11);
-        singleLinkList.removeNode(5);
+        singleLinkList.insetNode(15, 5);
+        singleLinkList.removeNode(1);
         singleLinkList.display();
     }
 }
