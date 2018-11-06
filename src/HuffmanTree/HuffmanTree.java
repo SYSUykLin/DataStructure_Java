@@ -15,6 +15,7 @@ public class HuffmanTree {
             byte [] data = readDatas(in);
             int [] dataInt = bytes2intArray(data);
             srcContent = Huffman2Char(map, dataInt);
+            System.out.println(srcContent);
         }catch (Exception e){
             e.printStackTrace();
         }finally {
@@ -28,7 +29,44 @@ public class HuffmanTree {
     }
 
     private String Huffman2Char(Map<String, String> map, int [] dataInt){
-        return null;
+        StringBuffer buffer = new StringBuffer();
+        String str = int2BinaryString(dataInt);
+        while (str.length() > 0){
+            for (String code : map.keySet()){
+                if (str.startsWith(code)){
+                    buffer.append(map.get(code));
+                    str = str.substring(code.length());
+                    break;
+                }
+            }
+        }
+        return buffer.toString();
+    }
+
+    private String int2BinaryString(int [] as){
+        int len = as.length;
+        String [] ss = new String[len];
+        String binarySet = "";
+        for (int i = 0; i < len - 1; i++) {
+            ss[i] = Integer.toBinaryString(as[i]);
+            ss[i] = addZero(ss[i]);
+            binarySet += ss[i];
+        }
+        int zeros = as[len-1];
+        if (zeros > 0){
+            binarySet = binarySet.substring(0, binarySet.length() - zeros);
+        }
+        return binarySet;
+    }
+
+    private String addZero(String str){
+        if (str.length() < 8){
+            int zeroNum = 8- str.length();
+            for (int i = 0; i < zeroNum; i++) {
+                str = "0" + str;
+            }
+        }
+        return str;
     }
 
     private int [] bytes2intArray(byte [] datas){
@@ -145,7 +183,6 @@ public class HuffmanTree {
     private byte char2bytes(String s) {
         byte ret = 0;
         char[] cs = s.toCharArray();
-
         for (int i = 0; i < cs.length; i++) {
             byte tempB = (byte) (Byte.parseByte("" + cs[i]) * Math.pow(2, cs.length - i - 1));
             ret = (byte) (ret + tempB);
@@ -242,5 +279,6 @@ public class HuffmanTree {
     public static void main(String args[]) {
         HuffmanTree huffmanTree = new HuffmanTree();
         huffmanTree.compress(huffmanTree.readFile("D:\\Java\\DataStructure_Java\\src\\Graph\\Version1\\DenseGraph.java"), "compress.txt");
+        huffmanTree.decompress("D:\\Java\\DataStructure_Java\\compress.txt");
     }
 }
