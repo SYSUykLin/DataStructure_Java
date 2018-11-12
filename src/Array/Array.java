@@ -96,4 +96,12 @@ public class Array<E> {
         stringBuilder.append(']');
         return stringBuilder.toString();
     }
+
+    public E getFirst(){
+        return get(0);
+    }
+
+    public E getLast(){
+        return get(size-1);
+    }
 }
