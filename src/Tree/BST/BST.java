@@ -1,5 +1,7 @@
 package Tree.BST;
 
+import java.util.Stack;
+
 public class BST<E extends Comparable<E>> {
     /**
      * Binary Search Tree
@@ -8,6 +10,8 @@ public class BST<E extends Comparable<E>> {
     private class Node {
         public E e;
         public Node left, right;
+        public boolean isleft = false;
+        public boolean isright = false;
 
         public Node(E e) {
             this.e = e;
@@ -106,8 +110,59 @@ public class BST<E extends Comparable<E>> {
         System.out.print(node.e + " ");
     }
 
-    private void preOrderNonRecur() {
+    public void preOrderNonRecur() {
+        Stack<Node> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            Node node = stack.pop();
+            System.out.print(node.e + " ");
+            if (node.right != null)
+                stack.push(node.right);
+            if (node.left != null)
+                stack.push(node.left);
+        }
+        System.out.println();
+    }
 
+    public void inOrderNonRecur() {
+        Stack<Node> stack = new Stack<>();
+        Node node = root;
+        while (node != null || !stack.isEmpty()) {
+            while (node != null) {
+                stack.push(node);
+                node = node.left;
+            }
+            if (!stack.isEmpty()) {
+                Node node1 = stack.pop();
+                System.out.print(node1.e + " ");
+                node = node1.right;
+            }
+        }
+        System.out.println();
+
+    }
+
+    public void lastOrderNonRecur() {
+        Stack<Node> stack = new Stack<>();
+        Node node = root;
+        while (node != null || !stack.isEmpty()) {
+            while (node != null) {
+                stack.push(node);
+                node = node.left;
+            }
+            if (!stack.isEmpty()) {
+                Node node1 = stack.peek();
+                if (!node1.isright) {
+                    node1.isright = true;
+                    node = node1.right;
+                } else {
+                    node = stack.pop();
+                    System.out.print(node.e + " ");
+                    node = null;
+                }
+            }
+        }
+        System.out.println();
     }
 
     @Override
@@ -136,7 +191,20 @@ public class BST<E extends Comparable<E>> {
     }
 
     public static void main(String[] args) {
-
+        BST<Integer> bst = new BST<>();
+        bst.add(28);
+        bst.add(16);
+        bst.add(30);
+        bst.add(13);
+        bst.add(22);
+        bst.add(29);
+        bst.add(42);
+        bst.preOrder();
+        bst.preOrderNonRecur();
+        bst.inOrder();
+        bst.inOrderNonRecur();
+        bst.lastOrder();
+        bst.lastOrderNonRecur();
     }
 
 }
