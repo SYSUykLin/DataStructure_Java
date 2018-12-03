@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Graph/Version1/WeightTree/GraphWithWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Version1/WeightTree/GraphWithWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HuffmanTree/HuffmanNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HuffmanTree/HuffmanNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HuffmanTree/HuffmanPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HuffmanTree/HuffmanPriorityQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,47 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graph/Version1/WeightTree/Edge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Graph/Version1/WeightTree/GraphWithWeight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="e#1699#1700#0" expanded="true" />
-                <element signature="e#1742#1743#0" expanded="true" />
-                <element signature="e#2006#2007#0" expanded="true" />
-                <element signature="e#2067#2068#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graph/Version1/DenseGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#1247#1248#0" expanded="true" />
-                <element signature="e#1271#1272#0" expanded="true" />
-                <element signature="e#1343#1344#0" expanded="true" />
-                <element signature="e#1384#1385#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,6 +95,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,24 +108,10 @@
               <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Version1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Version1" type="462c0819:PsiDirectoryNode" />
-              <item name="WeightTree" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -170,7 +119,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542985918518" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,11 +161,11 @@
       </method>
     </configuration>
     <configuration name="HuffmanPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HuffmanTree.HuffmanPriorityQueue" />
+      <option name="MAIN_CLASS_NAME" value="Tree.HuffmanTree.HuffmanPriorityQueue" />
       <module name="DataStructure_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HuffmanTree.*" />
+          <option name="PATTERN" value="Tree.HuffmanTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,11 +174,11 @@
       </method>
     </configuration>
     <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HuffmanTree.HuffmanTree" />
+      <option name="MAIN_CLASS_NAME" value="Tree.HuffmanTree.HuffmanTree" />
       <module name="DataStructure_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HuffmanTree.*" />
+          <option name="PATTERN" value="Tree.HuffmanTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,6 +243,7 @@
       <workItem from="1542013226226" duration="7622000" />
       <workItem from="1542984987270" duration="1098000" />
       <workItem from="1543766164644" duration="759000" />
+      <workItem from="1543823857786" duration="548000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -348,7 +298,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91511000" />
+    <option name="totallyTimeSpent" value="92059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,10 +310,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="802" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.15164521" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.15379113" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.14544237" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -371,7 +320,6 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35602838" />
@@ -381,10 +329,10 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -394,6 +342,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,13 +395,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Exception.java" />
-    <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compress.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -606,15 +548,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph/Version1/WeightTree/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="432">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph/Version1/WeightTree/GraphWithWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph/Version1/DenseGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="e#1247#1248#0" expanded="true" />
             <element signature="e#1271#1272#0" expanded="true" />
@@ -624,16 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graph/Version1/WeightTree/GraphWithWeight.java">
+    <entry file="file://$PROJECT_DIR$/src/HuffmanTree/HuffmanNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="e#1699#1700#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
-            <element signature="e#2006#2007#0" expanded="true" />
-            <element signature="e#2067#2068#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="251">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>

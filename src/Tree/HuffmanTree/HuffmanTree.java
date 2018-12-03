@@ -1,4 +1,4 @@
-package HuffmanTree;
+package Tree.HuffmanTree;
 
 import java.io.*;
 import java.util.HashMap;

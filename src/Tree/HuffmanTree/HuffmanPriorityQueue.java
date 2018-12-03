@@ -1,8 +1,4 @@
-package HuffmanTree;
-
-import Queue.PrioriityQueue;
-
-import java.util.Random;
+package Tree.HuffmanTree;
 
 public class HuffmanPriorityQueue {
     private HuffmanNode [] queue;

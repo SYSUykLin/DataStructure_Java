@@ -1,4 +1,4 @@
-package HuffmanTree;
+package Tree.HuffmanTree;
 
 public class HuffmanNode {
     private char c;
