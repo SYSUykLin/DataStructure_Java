@@ -64,7 +64,79 @@ public class BST<E extends Comparable<E>> {
         }
     }
 
-    public Node select(E e){
-        return null;
+    public void preOrder() {
+        preOrder(root);
+        System.out.println();
     }
+
+    private void preOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+        System.out.print(node.e + " ");
+        preOrder(node.left);
+        preOrder(node.right);
+    }
+
+    public void inOrder() {
+        inOrder(root);
+        System.out.println();
+    }
+
+    private void inOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+        inOrder(node.left);
+        System.out.print(node.e + " ");
+        inOrder(node.right);
+    }
+
+    public void lastOrder() {
+        lastOrder(root);
+        System.out.println();
+    }
+
+    private void lastOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+        lastOrder(node.left);
+        lastOrder(node.right);
+        System.out.print(node.e + " ");
+    }
+
+    private void preOrderNonRecur() {
+
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder res = new StringBuilder();
+        generateBSTString(root, 0, res);
+        return res.toString();
+    }
+
+    private void generateBSTString(Node node, int depth, StringBuilder res) {
+        if (node == null) {
+            res.append(generateDepthString(depth) + "null\n");
+            return;
+        }
+        res.append(generateDepthString(depth) + node.e + "\n");
+        generateBSTString(node.left, depth + 1, res);
+        generateBSTString(node.right, depth + 1, res);
+    }
+
+    private String generateDepthString(int depth) {
+        StringBuilder res = new StringBuilder();
+        for (int i = 0; i < depth; i++) {
+            res.append("--");
+        }
+        return res.toString();
+    }
+
+    public static void main(String[] args) {
+
+    }
+
 }

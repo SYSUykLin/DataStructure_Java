@@ -278,7 +278,7 @@ public class HuffmanTree {
 
     public static void main(String args[]) {
         HuffmanTree huffmanTree = new HuffmanTree();
-        huffmanTree.compress(huffmanTree.readFile("D:\\Java\\DataStructure_Java\\src\\Graph\\Version1\\DenseGraph.java"), "compress.txt");
-        huffmanTree.decompress("D:\\Java\\DataStructure_Java\\compress.txt");
+        huffmanTree.compress(huffmanTree.readFile("/Users/GreenArrow/IdeaProjects/DataStructure_Java/src/Array/Array.java"), "compress.txt");
+        huffmanTree.decompress("/Users/GreenArrow/IdeaProjects/DataStructure_Java/compress.txt");
     }
 }
