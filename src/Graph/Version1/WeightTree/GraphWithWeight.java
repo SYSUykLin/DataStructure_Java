@@ -64,5 +64,29 @@ public class GraphWithWeight {
 
     class adjIterator{
         private int s;
+        private GraphWithWeight G;
+        private int index;
+
+        adjIterator(int v, GraphWithWeight Graph){
+            index = v;
+            G = Graph;
+            index = 0;
+        }
+
+        Edge begin(){
+            return G.Graph.get(s).get(index);
+        }
+
+        Edge next(){
+            index ++;
+            if (index < G.Graph.get(s).size()){
+                return G.Graph.get(s).get(index);
+            }
+            return null;
+        }
+
+        boolean end(){
+            return index >= G.Graph.get(s).size();
+        }
     }
 }
