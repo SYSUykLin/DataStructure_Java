@@ -4,13 +4,14 @@ import Tree.BST.BST;
 
 /**
  * Set basic on BST
+ *
  * @param <E>
  */
 public class BSTSet<E extends Comparable<E>> implements Set<E> {
 
     private BST<E> bst;
 
-    public BSTSet(){
+    public BSTSet() {
         bst = new BST<>();
     }
 

@@ -4,9 +4,9 @@ import java.util.TreeSet;
 
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
-        String [] codes = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
+        String[] codes = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."};
         TreeSet<String> set = new TreeSet<>();
-        for (String word : words){
+        for (String word : words) {
             StringBuilder stringBuilder = new StringBuilder();
             for (int i = 0; i < word.length(); i++) {
                 stringBuilder.append(codes[word.charAt(i) - 'a']);
