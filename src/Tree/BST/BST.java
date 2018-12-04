@@ -113,16 +113,16 @@ public class BST<E extends Comparable<E>> {
         System.out.print(node.e + " ");
     }
 
-    public void levelOrder(){
+    public void levelOrder() {
         Queue<Node> nodes = new LinkedList<>();
         nodes.add(root);
-        while (!nodes.isEmpty()){
+        while (!nodes.isEmpty()) {
             Node node = nodes.remove();
             System.out.print(node.e + " ");
-            if (node.left != null){
+            if (node.left != null) {
                 nodes.add(node.left);
             }
-            if (node.right != null){
+            if (node.right != null) {
                 nodes.add(node.right);
             }
         }
@@ -184,6 +184,69 @@ public class BST<E extends Comparable<E>> {
         System.out.println();
     }
 
+    public E minimum() {
+        if (size == 0) {
+            throw new IllegalArgumentException("BST is empty!");
+        }
+        return minimum(root).e;
+    }
+
+    private Node minimum(Node node) {
+        if (node.left == null) {
+            return node;
+        }
+        return minimum(node.left);
+    }
+
+    public E maximum() {
+        if (size == 0) {
+            throw new IllegalArgumentException("BST is empty!");
+        }
+        return maximum(root).e;
+    }
+
+    private Node maximum(Node node) {
+        if (node.right == null) {
+            return node;
+        }
+        return maximum(node.right);
+    }
+
+    public E removeMin() {
+        E ret = minimum();
+        root = removeMin(root);
+        return ret;
+    }
+
+    private Node removeMin(Node node) {
+        if (node.left == null) {
+            Node nodrRight = node.right;
+            node.right = null;
+            size--;
+            return nodrRight;
+        }
+        node.left = removeMin(node.left);
+        return node;
+    }
+
+    public E removeMax(){
+        E ret = maximum();
+        root = removeMax(root);
+        return ret;
+    }
+
+    private Node removeMax(Node node){
+        if (node.right == null){
+            Node nodeLeft = node.left;
+            node.left = null;
+            size--;
+            return nodeLeft;
+        }
+        node.right = removeMax(node.right);
+        return node;
+    }
+
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
@@ -225,6 +288,8 @@ public class BST<E extends Comparable<E>> {
         bst.lastOrder();
         bst.lastOrderNonRecur();
         bst.levelOrder();
+        System.out.println(bst.maximum());
+        System.out.println(bst.minimum());
     }
 
 }
