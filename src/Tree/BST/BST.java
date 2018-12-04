@@ -1,6 +1,9 @@
 package Tree.BST;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
+import java.util.concurrent.LinkedBlockingQueue;
 
 public class BST<E extends Comparable<E>> {
     /**
@@ -110,6 +113,22 @@ public class BST<E extends Comparable<E>> {
         System.out.print(node.e + " ");
     }
 
+    public void levelOrder(){
+        Queue<Node> nodes = new LinkedList<>();
+        nodes.add(root);
+        while (!nodes.isEmpty()){
+            Node node = nodes.remove();
+            System.out.print(node.e + " ");
+            if (node.left != null){
+                nodes.add(node.left);
+            }
+            if (node.right != null){
+                nodes.add(node.right);
+            }
+        }
+        System.out.println();
+    }
+
     public void preOrderNonRecur() {
         Stack<Node> stack = new Stack<>();
         stack.push(root);
@@ -205,6 +224,7 @@ public class BST<E extends Comparable<E>> {
         bst.inOrderNonRecur();
         bst.lastOrder();
         bst.lastOrderNonRecur();
+        bst.levelOrder();
     }
 
 }
