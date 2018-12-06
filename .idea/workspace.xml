@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Map/BSTMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/Leecode347/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/PriorityQueueForHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set/BSTSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Set/BSTSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set/Leecode804/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Set/Leecode804/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/Array/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Java/Array/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Array.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,38 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Map/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Map/BSTMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,7 +58,6 @@
         <option value="$PROJECT_DIR$/src/Graph/Version1/Edge.java" />
         <option value="$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java" />
         <option value="$PROJECT_DIR$/src/Stack/ImplementStack/Stack.java" />
-        <option value="$PROJECT_DIR$/src/Array/Array.java" />
         <option value="$PROJECT_DIR$/src/Stack/ImplementStack/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/List/Leecode203/ListNode.java" />
         <option value="$PROJECT_DIR$/src/List/Leecode203/Solution.java" />
@@ -100,6 +70,12 @@
         <option value="$PROJECT_DIR$/src/Set/BSTSet.java" />
         <option value="$PROJECT_DIR$/src/Set/Leecode804/Solution.java" />
         <option value="$PROJECT_DIR$/src/Map/BSTMap.java" />
+        <option value="$PROJECT_DIR$/src/Array/Array.java" />
+        <option value="$PROJECT_DIR$/src/Queue/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/Heap/MaxHeap.java" />
+        <option value="$PROJECT_DIR$/src/Queue/PriorityQueueForHeap.java" />
+        <option value="$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Queue/Leecode347/Solution.java" />
       </list>
     </option>
   </component>
@@ -116,9 +92,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="802" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -140,18 +115,12 @@
               <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Map" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -176,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BST">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph.Version1.BFS" />
       <module name="DataStructure_Java" />
@@ -203,32 +172,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstLastList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="List.FirstLastList" />
-      <module name="DataStructure_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HuffmanPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.HuffmanTree.HuffmanPriorityQueue" />
-      <module name="DataStructure_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.HuffmanTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.HuffmanTree.HuffmanTree" />
       <module name="DataStructure_Java" />
@@ -242,20 +185,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.MaxHeap" />
+      <module name="DataStructure_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue.Leecode347.Solution" />
+      <module name="DataStructure_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.Leecode347.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.FirstLastList" />
-      <item itemvalue="Application.HuffmanPriorityQueue" />
       <item itemvalue="Application.HuffmanTree" />
       <item itemvalue="Application.BFS" />
       <item itemvalue="Application.BST" />
+      <item itemvalue="Application.MaxHeap" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.MaxHeap" />
         <item itemvalue="Application.BST" />
         <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.BFS" />
-        <item itemvalue="Application.HuffmanPriorityQueue" />
-        <item itemvalue="Application.FirstLastList" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +262,10 @@
       <workItem from="1543832946832" duration="1049000" />
       <workItem from="1543834400856" duration="9000" />
       <workItem from="1543834413304" duration="10692000" />
-      <workItem from="1543914089471" duration="10533000" />
+      <workItem from="1543914089471" duration="10831000" />
+      <workItem from="1543977611572" duration="577000" />
+      <workItem from="1543978387083" duration="11754000" />
+      <workItem from="1544077862583" duration="1047000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -369,7 +341,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118927000" />
+    <option name="totallyTimeSpent" value="132603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -382,9 +354,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.16881259" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.17525035" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.14544237" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -401,7 +372,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32816902" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32816902" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -462,19 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
-          <folding>
-            <element signature="e#2390#2391#0" expanded="true" />
-            <element signature="e#2417#2418#0" expanded="true" />
-            <element signature="e#2422#2423#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack/ImplementStack/ArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -504,21 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Queue/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1240">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,28 +669,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Map/Map.java">
+    <entry file="file://$PROJECT_DIR$/src/Map/Map.java" />
+    <entry file="file://$PROJECT_DIR$/src/Map/BSTMap.java" />
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/06-Priority-Queue/src/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Map/BSTMap.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="-787">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queue/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/06-Priority-Queue/src/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queue/PriorityQueueForHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/Solution5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <folding>
+            <element signature="e#0#1280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="544" selection-start-line="544" selection-end-line="544" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Heap/MaxHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2916">
+          <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#1621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1778#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queue/Leecode347/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
