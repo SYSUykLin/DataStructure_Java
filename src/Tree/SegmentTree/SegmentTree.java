@@ -1,4 +1,4 @@
-package SegmentTree;
+package Tree.SegmentTree;
 
 public class SegmentTree<E> {
     private E[] data;
