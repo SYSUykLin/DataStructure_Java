@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/HashTable/HashFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/HashTable/HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,14 +17,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SegmentTree/SegmentTree.java">
+        <entry file="file://$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="513">
+              <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
               <folding>
-                <element signature="e#1226#1227#0" expanded="true" />
-                <element signature="e#1302#1303#0" expanded="true" />
-                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
+                <element signature="e#1588#1589#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/HashTable/Hash_Table.java" />
         <option value="$PROJECT_DIR$/src/SegmentTree/Merger.java" />
         <option value="$PROJECT_DIR$/src/SegmentTree/SegmentTree.java" />
+        <option value="$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java" />
       </list>
     </option>
   </component>
@@ -119,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,17 +139,10 @@
               <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SegmentTree" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -167,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashFunction">
+  <component name="RunManager" selected="Application.SegmentTree">
     <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.BST.BST" />
       <module name="DataStructure_Java" />
@@ -194,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.HuffmanTree.HuffmanTree" />
+    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.MaxHeap" />
       <module name="DataStructure_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.HuffmanTree.*" />
+          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.MaxHeap" />
+    <configuration name="SegmentTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.SegmentTree.SegmentTree" />
       <module name="DataStructure_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Tree.SegmentTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,19 +235,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HuffmanTree" />
       <item itemvalue="Application.BST" />
       <item itemvalue="Application.MaxHeap" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.HashFunction" />
+      <item itemvalue="Application.SegmentTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SegmentTree" />
         <item itemvalue="Application.HashFunction" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.MaxHeap" />
         <item itemvalue="Application.BST" />
-        <item itemvalue="Application.HuffmanTree" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +294,9 @@
       <workItem from="1544153382795" duration="5861000" />
       <workItem from="1544186472612" duration="4000" />
       <workItem from="1544186526821" duration="184000" />
-      <workItem from="1544187212696" duration="2308000" />
+      <workItem from="1544187212696" duration="3661000" />
+      <workItem from="1544239534023" duration="1090000" />
+      <workItem from="1544281244789" duration="1139000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -376,7 +379,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146473000" />
+    <option name="totallyTimeSpent" value="150055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,7 +393,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.19027181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.19527897" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.14544237" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -400,14 +403,14 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35301206" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35211268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32816902" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.3253521" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.3253521" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32650602" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32816902" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -435,38 +438,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="BST" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Stack/ImplementStack/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/ImplementStack/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Queue/PrioriityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1399">
@@ -842,21 +813,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SegmentTree/Merger.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/SegmentTree/Merger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SegmentTree/SegmentTree.java">
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/09-Segment-Tree/03-Building-Segment-Tree/src/SegmentTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-868" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/09-Segment-Tree/03-Building-Segment-Tree/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
           <folding>
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1302#1303#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
           </folding>
         </state>
       </provider>
