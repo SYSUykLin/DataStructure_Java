@@ -86,6 +86,30 @@ public class SegmentTree<E> {
         System.out.println();
     }
 
+    public void set(int index, E e) {
+        if (index < 0 || index >= data.length) {
+            throw new IllegalArgumentException("index is illgel!!!");
+        }
+        data[index] = e;
+        set(0, 0, data.length - 1, index, e);
+    }
+
+    private void set(int treeIndex, int l, int r, int index, E e) {
+        if (l == r){
+            tree[treeIndex] = e;
+            return;
+        }
+        int mid = l + (r - l)/2;
+        int left = leftChild(index);
+        int right = rightChild(index);
+        if (index <= mid){
+            set(left, l, mid, index, e);
+        }else if (index > mid){
+            set(right, mid+1, right, index, e);
+        }
+        tree[treeIndex] = merger.merger(tree[left], tree[right]);
+    }
+
     public static void main(String[] args) {
         Integer[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         SegmentTree<Integer> segmentTree = new SegmentTree<Integer>(arr, (a, b) -> a + b);
