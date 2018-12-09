@@ -34,8 +34,23 @@ public class Trie {
             }
             cur = cur.next.get(c);
         }
-        cur.isWord = true;
-        size++;
+        if (!cur.isWord) {
+            cur.isWord = true;
+            size++;
+        }
+    }
+
+    public boolean contains(String word) {
+        Node cur = root;
+        for (int i = 0; i < word.length(); i++) {
+            char c = word.charAt(i);
+            if (cur.next.get(c) != null){
+                cur = cur.next.get(c);
+            }else {
+                return false;
+            }
+        }
+        return cur.isWord;
     }
 
     public int getSize() {
