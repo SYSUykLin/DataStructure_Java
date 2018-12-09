@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tree/SegmentTree/Leecode303/NumArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/SegmentTree/Leecode307/NumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Trie/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Trie/Trie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/Tree/SegmentTree/Leecode303/NumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Java/Tree/SegmentTree/Leecode303/NumArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/Tree/SegmentTree/Leecode303/SegementTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Java/Tree/SegmentTree/Leecode303/SegementTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/Tree/SegmentTree/SegmentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Java/Tree/SegmentTree/SegmentTree.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,33 +18,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="111" />
-              <folding>
-                <element signature="e#1401#1402#0" expanded="true" />
-                <element signature="e#1435#1436#0" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
-                <element signature="e#1511#1512#0" expanded="true" />
-                <element signature="e#1552#1553#0" expanded="true" />
-                <element signature="e#1588#1589#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="62">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tree/SegmentTree/Leecode307/NumArray.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="114" column="53" lean-forward="true" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
+            <state relative-caret-position="221">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="19" />
               <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Stack/sdrfdv.java" />
         <option value="$PROJECT_DIR$/src/Stack/Stack.java" />
         <option value="$PROJECT_DIR$/src/Stack/CalculatePost.java" />
@@ -114,8 +106,9 @@
         <option value="$PROJECT_DIR$/src/SegmentTree/SegmentTree.java" />
         <option value="$PROJECT_DIR$/src/Tree/SegmentTree/Leecode303/Solution.java" />
         <option value="$PROJECT_DIR$/src/Tree/SegmentTree/Leecode303/NumArray.java" />
-        <option value="$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java" />
         <option value="$PROJECT_DIR$/src/Tree/SegmentTree/Leecode307/NumArray.java" />
+        <option value="$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java" />
+        <option value="$PROJECT_DIR$/src/Tree/Trie/Trie.java" />
       </list>
     </option>
   </component>
@@ -132,9 +125,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="802" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,6 +153,12 @@
               <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HashTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -167,29 +166,12 @@
               <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="SegmentTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="SegmentTree" type="462c0819:PsiDirectoryNode" />
-              <item name="Leecode303" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="SegmentTree" type="462c0819:PsiDirectoryNode" />
-              <item name="Leecode307" type="462c0819:PsiDirectoryNode" />
+              <item name="Trie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -201,7 +183,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -349,7 +332,10 @@
       <workItem from="1544187212696" duration="3661000" />
       <workItem from="1544239534023" duration="1090000" />
       <workItem from="1544281244789" duration="5114000" />
-      <workItem from="1544342877606" duration="337000" />
+      <workItem from="1544342877606" duration="1463000" />
+      <workItem from="1544354362951" duration="1077000" />
+      <workItem from="1544359473684" duration="194000" />
+      <workItem from="1544359713008" duration="1106000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -439,7 +425,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154367000" />
+    <option name="totallyTimeSpent" value="157870000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,9 +438,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.1981402" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.2067239" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.14544237" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -464,14 +449,14 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35211268" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35180724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32816902" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32771084" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.3253521" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.3253012" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32650602" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32816902" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -500,20 +485,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Segment Tree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/List/SingleLinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/List/Leecode203/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/List/Leecode203/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -824,25 +795,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTable/HashTable.java" />
     <entry file="file://$PROJECT_DIR$/src/HashTable/HashFunction.java" />
-    <entry file="file://$PROJECT_DIR$/src/HashTable/Hash_Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
-          <folding>
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#2218#2219#0" expanded="true" />
-            <element signature="e#2278#2279#0" expanded="true" />
-            <element signature="e#2305#2306#0" expanded="true" />
-            <element signature="e#2357#2358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTable/Leecode387/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -889,8 +841,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/SegmentTree/Leecode307/NumArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="114" column="53" lean-forward="true" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
+        <state relative-caret-position="1334">
+          <caret line="97" column="38" lean-forward="true" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
           <folding>
             <element signature="e#134#135#0" expanded="true" />
             <element signature="e#187#188#0" expanded="true" />
@@ -902,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="111" />
+        <state relative-caret-position="-1528">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="e#1401#1402#0" expanded="true" />
             <element signature="e#1435#1436#0" expanded="true" />
@@ -911,6 +863,44 @@
             <element signature="e#1511#1512#0" expanded="true" />
             <element signature="e#1552#1553#0" expanded="true" />
             <element signature="e#1588#1589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTable/Hash_Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+          <folding>
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#2218#2219#0" expanded="true" />
+            <element signature="e#2278#2279#0" expanded="true" />
+            <element signature="e#2305#2306#0" expanded="true" />
+            <element signature="e#2357#2358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -984,6 +974,17 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.15810277" />
               </list>
             </option>
           </splitter-proportions>
