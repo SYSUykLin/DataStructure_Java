@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tree/Trie/Leecode208/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Trie/Leecode211/WordDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/Tree/Trie/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Java/Tree/Trie/Trie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tree/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Trie/Trie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,29 +16,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
               <folding>
                 <element signature="e#311#312#0" expanded="true" />
                 <element signature="e#346#347#0" expanded="true" />
                 <element signature="e#1549#1550#0" expanded="true" />
                 <element signature="e#1576#1577#0" expanded="true" />
+                <element signature="e#1621#1622#0" expanded="true" />
+                <element signature="e#1650#1651#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Leecode211/WordDictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            <state relative-caret-position="361">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="e#490#491#0" expanded="true" />
                 <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#1135#1136#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,10 +112,10 @@
         <option value="$PROJECT_DIR$/src/Tree/SegmentTree/Leecode303/NumArray.java" />
         <option value="$PROJECT_DIR$/src/Tree/SegmentTree/Leecode307/NumArray.java" />
         <option value="$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java" />
-        <option value="$PROJECT_DIR$/src/Tree/Trie/Trie.java" />
         <option value="$PROJECT_DIR$/src/Tree/Trie/Leecode208/Trie.java" />
         <option value="$PROJECT_DIR$/src/Tree/Trie/Leecode211/WorkDictionary.java" />
         <option value="$PROJECT_DIR$/src/Tree/Trie/Leecode211/WordDictionary.java" />
+        <option value="$PROJECT_DIR$/src/Tree/Trie/Trie.java" />
       </list>
     </option>
   </component>
@@ -345,7 +345,7 @@
       <workItem from="1544354362951" duration="1077000" />
       <workItem from="1544359473684" duration="194000" />
       <workItem from="1544359713008" duration="6890000" />
-      <workItem from="1544414596884" duration="497000" />
+      <workItem from="1544414596884" duration="1458000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -435,7 +435,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164151000" />
+    <option name="totallyTimeSpent" value="165112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,7 +450,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.20958512" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.20958512" />
       <window_info id="Structure" order="1" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -496,13 +496,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Segment Tree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Graph/Version1/DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph/Version1/WeightTree/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -898,26 +891,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Trie.java">
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/10-Trie/05-Trie-and-Pattern-Match/src/WordDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="267">
+          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
           <folding>
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#0#1754#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Leecode211/WordDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        <state relative-caret-position="361">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="e#490#491#0" expanded="true" />
             <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
           </folding>
         </state>
       </provider>

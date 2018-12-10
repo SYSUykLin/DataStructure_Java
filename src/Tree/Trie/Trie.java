@@ -69,6 +69,10 @@ public class Trie {
         return size;
     }
 
+    public boolean search(String word){
+        return match(root, word, 0);
+    }
+
     private boolean match(Node node, String word, int index) {
         if (index == word.length()) {
             return node.isWord;
