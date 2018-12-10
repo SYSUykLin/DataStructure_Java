@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Tree/Trie/Leecode208/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Trie/Leecode211/WordDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/Tree/Trie/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Java/Tree/Trie/Trie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tree/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Trie/Trie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,23 +21,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="1178">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1576#1577#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Trie.java">
+        <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Leecode211/WordDictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+            <state relative-caret-position="673">
+              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding>
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#1340#1341#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,9 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Stack/sdrfdv.java" />
-        <option value="$PROJECT_DIR$/src/Stack/Stack.java" />
-        <option value="$PROJECT_DIR$/src/Stack/CalculatePost.java" />
         <option value="$PROJECT_DIR$/src/Queue/Queue.java" />
         <option value="$PROJECT_DIR$/src/Graph/DenseGraph.java" />
         <option value="$PROJECT_DIR$/src/Graph/Version1/Graph.java" />
@@ -107,6 +113,9 @@
         <option value="$PROJECT_DIR$/src/Tree/SegmentTree/Leecode307/NumArray.java" />
         <option value="$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java" />
         <option value="$PROJECT_DIR$/src/Tree/Trie/Trie.java" />
+        <option value="$PROJECT_DIR$/src/Tree/Trie/Leecode208/Trie.java" />
+        <option value="$PROJECT_DIR$/src/Tree/Trie/Leecode211/WorkDictionary.java" />
+        <option value="$PROJECT_DIR$/src/Tree/Trie/Leecode211/WordDictionary.java" />
       </list>
     </option>
   </component>
@@ -134,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -151,12 +161,6 @@
               <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="HashTable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -166,11 +170,18 @@
               <item name="Tree" type="462c0819:PsiDirectoryNode" />
               <item name="Trie" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="Trie" type="462c0819:PsiDirectoryNode" />
+              <item name="Leecode211" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -201,26 +212,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumArray">
+  <component name="RunManager" selected="Application.Trie">
     <configuration name="HashFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTable.HashFunction" />
       <module name="DataStructure_Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HashTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.MaxHeap" />
-      <module name="DataStructure_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,20 +265,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Trie.Trie" />
+      <module name="DataStructure_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.Trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MaxHeap" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.HashFunction" />
       <item itemvalue="Application.SegmentTree" />
       <item itemvalue="Application.NumArray" />
+      <item itemvalue="Application.Trie" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Trie" />
         <item itemvalue="Application.NumArray" />
         <item itemvalue="Application.SegmentTree" />
         <item itemvalue="Application.HashFunction" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.MaxHeap" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +344,8 @@
       <workItem from="1544342877606" duration="1463000" />
       <workItem from="1544354362951" duration="1077000" />
       <workItem from="1544359473684" duration="194000" />
-      <workItem from="1544359713008" duration="2881000" />
+      <workItem from="1544359713008" duration="6890000" />
+      <workItem from="1544414596884" duration="497000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -423,7 +435,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159645000" />
+    <option name="totallyTimeSpent" value="164151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,7 +450,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.2067239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.20958512" />
       <window_info id="Structure" order="1" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -484,24 +496,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Segment Tree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/List/Leecode203/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graph/Version1/SparseGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph/Version1/DFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -887,19 +881,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="62">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Leecode208/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        <state relative-caret-position="1178">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="e#311#312#0" expanded="true" />
             <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Leecode211/WordDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
           </folding>
         </state>
       </provider>

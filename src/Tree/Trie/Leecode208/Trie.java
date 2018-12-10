@@ -1,11 +1,12 @@
-package Tree.Trie;
+package Tree.Trie.Leecode208;
 
 import java.util.TreeMap;
 
-public class Trie {
+class Trie {
+
     private class Node {
-        public boolean isWord;
         public TreeMap<Character, Node> next;
+        public boolean isWord;
 
         public Node(boolean isWord) {
             this.isWord = isWord;
@@ -18,14 +19,18 @@ public class Trie {
     }
 
     private Node root;
-    private int size;
 
+    /**
+     * Initialize your data structure here.
+     */
     public Trie() {
         root = new Node();
-        this.size = 0;
     }
 
-    public void add(String word) {
+    /**
+     * Inserts a word into the trie.
+     */
+    public void insert(String word) {
         Node cur = root;
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
@@ -34,50 +39,46 @@ public class Trie {
             }
             cur = cur.next.get(c);
         }
-        if (!cur.isWord) {
-            cur.isWord = true;
-            size++;
-        }
+        cur.isWord = true;
     }
 
-    public boolean contains(String word) {
-        Node cur = root;
-        for (int i = 0; i < word.length(); i++) {
-            char c = word.charAt(i);
-            if (cur.next.get(c) != null){
-                cur = cur.next.get(c);
-            }else {
-                return false;
-            }
-        }
-        return cur.isWord;
-    }
-
-    public boolean isPrefix(String word){
+    /**
+     * Returns if the word is in the trie.
+     */
+    public boolean search(String word) {
         Node cur = root;
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
             if (cur.next.get(c) == null){
                 return false;
+            }else {
+                cur = cur.next.get(c);
             }
-            cur = cur.next.get(c);
+        }
+        return cur.isWord;
+    }
+
+    /**
+     * Returns if there is any word in the trie that starts with the given prefix.
+     */
+    public boolean startsWith(String prefix) {
+        Node cur = root;
+        for (int i = 0; i < prefix.length(); i++) {
+            char c = prefix.charAt(i);
+            if (cur.next.get(c) == null){
+                return false;
+            }else {
+                cur = cur.next.get(c);
+            }
         }
         return true;
     }
-
-    public int getSize() {
-        return size;
-    }
-
-    private boolean
-
-    public static void main(String[] args) {
-        Trie trie = new Trie();
-        trie.add("add");
-        trie.add("pandas");
-        trie.add("anacoda");
-        trie.add("acooperate");
-        System.out.println(trie.contains("pan"));
-        System.out.println(trie.contains("anacoda"));
-    }
 }
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie obj = new Trie();
+ * obj.insert(word);
+ * boolean param_2 = obj.search(word);
+ * boolean param_3 = obj.startsWith(prefix);
+ */
