@@ -47,5 +47,6 @@ public class AVL<K extends Comparable<K>, V> {
         }else {
             node.value = value;
         }
+        return node;
     }
 }
