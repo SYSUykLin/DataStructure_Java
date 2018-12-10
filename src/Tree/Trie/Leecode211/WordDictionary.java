@@ -1,4 +1,5 @@
 package Tree.Trie.Leecode211;
+
 import java.util.TreeMap;
 
 class WordDictionary {
@@ -19,12 +20,16 @@ class WordDictionary {
     private Node root;
     private int size;
 
-    /** Initialize your data structure here. */
+    /**
+     * Initialize your data structure here.
+     */
     public WordDictionary() {
         root = new Node();
     }
 
-    /** Adds a word into the data structure. */
+    /**
+     * Adds a word into the data structure.
+     */
     public void addWord(String word) {
         Node cur = root;
         for (int i = 0; i < word.length(); i++) {
@@ -40,25 +45,27 @@ class WordDictionary {
         }
     }
 
-    /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
+    /**
+     * Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter.
+     */
     public boolean search(String word) {
         return match(root, word, 0);
     }
 
-    private boolean match(Node node, String word, int index){
-        if (index == word.length()){
+    private boolean match(Node node, String word, int index) {
+        if (index == word.length()) {
             return node.isWord;
         }
         char c = word.charAt(index);
-        if (c != '.'){
-            if (node.next.get(c) == null){
+        if (c != '.') {
+            if (node.next.get(c) == null) {
                 return false;
-            }else {
+            } else {
                 return match(node.next.get(c), word, index + 1);
             }
-        }else {
-            for (char key : node.next.keySet()){
-                if (match(node.next.get(key), word, index + 1)){
+        } else {
+            for (char key : node.next.keySet()) {
+                if (match(node.next.get(key), word, index + 1)) {
                     return true;
                 }
             }

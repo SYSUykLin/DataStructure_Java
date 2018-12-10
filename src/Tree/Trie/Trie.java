@@ -44,20 +44,20 @@ public class Trie {
         Node cur = root;
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
-            if (cur.next.get(c) != null){
+            if (cur.next.get(c) != null) {
                 cur = cur.next.get(c);
-            }else {
+            } else {
                 return false;
             }
         }
         return cur.isWord;
     }
 
-    public boolean isPrefix(String word){
+    public boolean isPrefix(String word) {
         Node cur = root;
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
-            if (cur.next.get(c) == null){
+            if (cur.next.get(c) == null) {
                 return false;
             }
             cur = cur.next.get(c);
@@ -69,15 +69,34 @@ public class Trie {
         return size;
     }
 
-    private boolean
+    private boolean match(Node node, String word, int index) {
+        if (index == word.length()) {
+            return node.isWord;
+        }
+        char c = word.charAt(index);
+        if (c != '.') {
+            if (node.next.get(c) == null) {
+                return false;
+            } else {
+                return match(node.next.get(c), word, index + 1);
+            }
+        } else {
+            for (char key : node.next.keySet()) {
+                if (match(node.next.get(key), word, index + 1)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+    }
 
     public static void main(String[] args) {
         Trie trie = new Trie();
         trie.add("add");
         trie.add("pandas");
-        trie.add("anacoda");
-        trie.add("acooperate");
+        trie.add("anaconda");
+        trie.add("cooperate");
         System.out.println(trie.contains("pan"));
-        System.out.println(trie.contains("anacoda"));
+        System.out.println(trie.contains("anaconda"));
     }
 }
