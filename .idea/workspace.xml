@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tree/Trie/Leecode677/MapSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/AVL/AVL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,16 +32,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Leecode677/MapSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+            <state relative-caret-position="357">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="e#294#295#0" expanded="true" />
                 <element signature="e#329#330#0" expanded="true" />
                 <element signature="e#438#439#0" expanded="true" />
                 <element signature="e#470#471#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/AVL/AVL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="715">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <folding>
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Graph/DenseGraph.java" />
         <option value="$PROJECT_DIR$/src/Graph/Version1/Graph.java" />
         <option value="$PROJECT_DIR$/src/Graph/Version1/SparseGraph.java" />
         <option value="$PROJECT_DIR$/src/Graph/Version1/DenseGraph.java" />
@@ -115,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/Tree/Trie/Leecode211/WordDictionary.java" />
         <option value="$PROJECT_DIR$/src/Tree/Trie/Trie.java" />
         <option value="$PROJECT_DIR$/src/Tree/Trie/Leecode677/MapSum.java" />
+        <option value="$PROJECT_DIR$/src/Tree/AVL/AVL.java" />
       </list>
     </option>
   </component>
@@ -161,13 +176,6 @@
               <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="Trie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,7 +344,7 @@
       <workItem from="1544354362951" duration="1077000" />
       <workItem from="1544359473684" duration="194000" />
       <workItem from="1544359713008" duration="6890000" />
-      <workItem from="1544414596884" duration="2984000" />
+      <workItem from="1544414596884" duration="3917000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -426,7 +434,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166638000" />
+    <option name="totallyTimeSpent" value="167571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,13 +495,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Segment Tree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/HuffmanTree/HuffmanNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/main.java" />
     <entry file="file://$PROJECT_DIR$/src/Tree/HuffmanTree/HuffmanTree.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -915,13 +916,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Leecode677/MapSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        <state relative-caret-position="357">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="e#294#295#0" expanded="true" />
             <element signature="e#329#330#0" expanded="true" />
             <element signature="e#438#439#0" expanded="true" />
             <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/AVL/AVL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
           </folding>
         </state>
       </provider>
