@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tree/AVL/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/AVL/AVL.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,14 +19,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree/AVL/AVL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="212" column="18" selection-start-line="212" selection-start-column="18" selection-end-line="212" selection-end-column="18" />
+            <state relative-caret-position="148">
+              <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
               <folding>
                 <element signature="e#506#507#0" expanded="true" />
                 <element signature="e#533#534#0" expanded="true" />
                 <element signature="e#1562#1563#0" expanded="true" />
                 <element signature="e#1592#1593#0" expanded="true" />
-                <element signature="e#3391#3392#0" expanded="true" />
+                <element signature="e#3503#3504#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/BST/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5719">
+            <state relative-caret-position="579">
               <caret line="278" column="23" lean-forward="true" selection-start-line="278" selection-start-column="23" selection-end-line="278" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -338,7 +337,7 @@
       <workItem from="1544359713008" duration="6890000" />
       <workItem from="1544414596884" duration="4342000" />
       <workItem from="1544434601808" duration="3350000" />
-      <workItem from="1544516813169" duration="4536000" />
+      <workItem from="1544516813169" duration="4816000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -428,7 +427,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175882000" />
+    <option name="totallyTimeSpent" value="176162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,7 +452,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35180724" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35180724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -907,7 +906,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/BST/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5719">
+        <state relative-caret-position="579">
           <caret line="278" column="23" lean-forward="true" selection-start-line="278" selection-start-column="23" selection-end-line="278" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -919,14 +918,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/AVL/AVL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="212" column="18" selection-start-line="212" selection-start-column="18" selection-end-line="212" selection-end-column="18" />
+        <state relative-caret-position="148">
+          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
           <folding>
             <element signature="e#506#507#0" expanded="true" />
             <element signature="e#533#534#0" expanded="true" />
             <element signature="e#1562#1563#0" expanded="true" />
             <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#3391#3392#0" expanded="true" />
+            <element signature="e#3503#3504#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -83,7 +83,9 @@ public class AVL<K extends Comparable<K>, V> {
     }
 
     private Node remove(Node node, K key) {
-        if (key.compareTo(node.key) < 0) {
+        if (node == null) {
+            return null;
+        } else if (key.compareTo(node.key) < 0) {
             node.left = remove(node.left, key);
         } else if (key.compareTo(node.key) > 0) {
             node.right = remove(node.right, key);
@@ -123,6 +125,7 @@ public class AVL<K extends Comparable<K>, V> {
             node.right = rightRotate(node.right);
             return leftRotate(node);
         }
+        //System.out.println(getBalanceFactor(node));
         return node;
 
     }
@@ -190,7 +193,7 @@ public class AVL<K extends Comparable<K>, V> {
         return getHeight(node.left) - getHeight(node.right);
     }
 
-    public void show(){
+    public void show() {
         show(root);
         System.out.println();
     }
@@ -209,6 +212,9 @@ public class AVL<K extends Comparable<K>, V> {
         Random random = new Random();
         for (int i = 0; i < 100; i++) {
             avl.add(random.nextInt(), random.nextInt());
+        }
+        for (int i = 0; i < 20; i++) {
+            avl.remove(random.nextInt());
         }
         avl.show();
     }
