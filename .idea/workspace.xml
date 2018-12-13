@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tree/RBTree/RBTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/RBTree/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/RBTree/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/RBTree/RBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/RBTree/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/RBTree/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,58 +17,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/RBTree/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3524">
-              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+            <state relative-caret-position="-4856">
+              <caret line="451" column="36" selection-start-line="451" selection-start-column="36" selection-end-line="451" selection-end-column="36" />
               <folding>
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
                 <element signature="e#966#967#0" expanded="true" />
                 <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-                <element signature="e#1203#1204#0" expanded="true" />
-                <element signature="e#1248#1249#0" expanded="true" />
-                <element signature="e#1319#1320#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1401#1402#0" expanded="true" />
-                <element signature="e#2124#2125#0" expanded="true" />
-                <element signature="e#2155#2156#0" expanded="true" />
-                <element signature="e#2413#2414#0" expanded="true" />
-                <element signature="e#2443#2444#0" expanded="true" />
-                <element signature="e#2718#2719#0" expanded="true" />
-                <element signature="e#2750#2751#0" expanded="true" />
-                <element signature="e#3144#3145#0" expanded="true" />
-                <element signature="e#3185#3186#0" expanded="true" />
-                <element signature="e#3605#3606#0" expanded="true" />
-                <element signature="e#3655#3656#0" expanded="true" />
+                <element signature="method#insertFixUp#0;class#Test#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree/RBTree/RBTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+            <state relative-caret-position="239">
+              <caret line="307" column="44" selection-start-line="307" selection-start-column="44" selection-end-line="307" selection-end-column="44" />
               <folding>
+                <element signature="e#523#524#0" expanded="true" />
                 <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
                 <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
                 <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
                 <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
                 <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
                 <element signature="e#1248#1249#0" expanded="true" />
-                <element signature="e#1788#1789#0" expanded="true" />
-                <element signature="e#1813#1814#0" expanded="true" />
-                <element signature="e#2027#2028#0" expanded="true" />
-                <element signature="e#2057#2058#0" expanded="true" />
+                <element signature="e#2287#2288#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,8 +150,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AVL">
+  <component name="RunManager" selected="Application.RBTree">
     <configuration name="AVL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.AVL.AVL" />
       <module name="DataStructure_Java" />
@@ -245,12 +225,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTable.HashFunction" />
+    <configuration name="NumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.SegmentTree.Leecode303.NumArray" />
       <module name="DataStructure_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashTable.*" />
+          <option name="PATTERN" value="Tree.SegmentTree.Leecode303.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.SegmentTree.Leecode303.NumArray" />
+    <configuration name="RBTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.RBTree.RBTree" />
       <module name="DataStructure_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.SegmentTree.Leecode303.*" />
+          <option name="PATTERN" value="Tree.RBTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,19 +278,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HashFunction" />
       <item itemvalue="Application.SegmentTree" />
       <item itemvalue="Application.NumArray" />
       <item itemvalue="Application.Trie" />
       <item itemvalue="Application.AVL" />
+      <item itemvalue="Application.RBTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RBTree" />
         <item itemvalue="Application.AVL" />
         <item itemvalue="Application.Trie" />
         <item itemvalue="Application.NumArray" />
         <item itemvalue="Application.SegmentTree" />
-        <item itemvalue="Application.HashFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -368,6 +348,7 @@
       <workItem from="1544434601808" duration="3350000" />
       <workItem from="1544516813169" duration="6175000" />
       <workItem from="1544628151032" duration="2483000" />
+      <workItem from="1544673959872" duration="21480000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -457,7 +438,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180004000" />
+    <option name="totallyTimeSpent" value="201484000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,8 +451,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.21816881" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49821427" weight="0.22103004" />
       <window_info id="Structure" order="1" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -481,16 +463,16 @@
       <window_info id="Favorites" order="7" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35180724" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35180724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32771084" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.3253012" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.3253012" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32650602" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32816902" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32771084" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -581,13 +563,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Map/Map.java" />
     <entry file="file://$PROJECT_DIR$/src/Map/BSTMap.java" />
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/06-Priority-Queue/src/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/06-Priority-Queue/src/Queue.java" />
     <entry file="file://$PROJECT_DIR$/src/Queue/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-787">
@@ -623,19 +599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/06-Priority-Queue/src/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/06-Priority-Queue/src/PriorityQueue.java" />
     <entry file="file://$PROJECT_DIR$/src/Queue/PriorityQueueForHeap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -657,15 +621,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/Solution5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <folding>
-            <element signature="e#0#1280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/Solution5.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -691,27 +647,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/Solution2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#1621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#1778#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/Solution2.java" />
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/Queue/Leecode347/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -776,18 +713,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/09-Segment-Tree/03-Building-Segment-Tree/src/SegmentTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-868" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/09-Segment-Tree/03-Building-Segment-Tree/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/09-Segment-Tree/03-Building-Segment-Tree/src/SegmentTree.java" />
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/09-Segment-Tree/03-Building-Segment-Tree/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Tree/SegmentTree/Leecode303/NumArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -846,18 +773,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/10-Trie/05-Trie-and-Pattern-Match/src/WordDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#1754#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/10-Trie/05-Trie-and-Pattern-Match/src/WordDictionary.java" />
     <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Leecode211/WordDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -878,16 +794,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/12-AVL-Tree/06-LR-and-RL/src/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4490" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/12-AVL-Tree/07-Remove-Elements-in-AVL-Tree/src/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3613" />
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/12-AVL-Tree/06-LR-and-RL/src/AVLTree.java" />
+    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/12-AVL-Tree/07-Remove-Elements-in-AVL-Tree/src/AVLTree.java" />
     <entry file="file://$PROJECT_DIR$/src/Tree/BST/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -940,55 +848,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/RBTree/RBTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/RBTree/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+        <state relative-caret-position="-4856">
+          <caret line="451" column="36" selection-start-line="451" selection-start-column="36" selection-end-line="451" selection-end-column="36" />
           <folding>
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1788#1789#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#2027#2028#0" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="method#insertFixUp#0;class#Test#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/RBTree/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/RBTree/RBTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3524">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        <state relative-caret-position="239">
+          <caret line="307" column="44" selection-start-line="307" selection-start-column="44" selection-end-line="307" selection-end-column="44" />
           <folding>
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
             <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2155#2156#0" expanded="true" />
-            <element signature="e#2413#2414#0" expanded="true" />
-            <element signature="e#2443#2444#0" expanded="true" />
-            <element signature="e#2718#2719#0" expanded="true" />
-            <element signature="e#2750#2751#0" expanded="true" />
-            <element signature="e#3144#3145#0" expanded="true" />
-            <element signature="e#3185#3186#0" expanded="true" />
-            <element signature="e#3605#3606#0" expanded="true" />
-            <element signature="e#3655#3656#0" expanded="true" />
+            <element signature="e#2287#2288#0" expanded="true" />
           </folding>
         </state>
       </provider>
