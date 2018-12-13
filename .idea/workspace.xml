@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Tree/RBTree/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/RBTree/RBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/RBTree/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/RBTree/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,26 +16,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tree/RBTree/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4856">
-              <caret line="451" column="36" selection-start-line="451" selection-start-column="36" selection-end-line="451" selection-end-column="36" />
-              <folding>
-                <element signature="e#966#967#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="method#insertFixUp#0;class#Test#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree/RBTree/RBTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="307" column="44" selection-start-line="307" selection-start-column="44" selection-end-line="307" selection-end-column="44" />
+            <state relative-caret-position="270">
+              <caret line="525" column="48" selection-start-line="525" selection-start-column="48" selection-end-line="525" selection-end-column="48" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#523#524#0" expanded="true" />
                 <element signature="e#557#558#0" expanded="true" />
                 <element signature="e#833#834#0" expanded="true" />
@@ -49,7 +35,24 @@
                 <element signature="e#1168#1169#0" expanded="true" />
                 <element signature="e#1213#1214#0" expanded="true" />
                 <element signature="e#1248#1249#0" expanded="true" />
-                <element signature="e#2287#2288#0" expanded="true" />
+                <element signature="e#2394#2395#0" expanded="true" />
+                <element signature="method#rightRotate#0;class#RBTree#0" />
+                <element signature="method#insert#0;class#RBTree#0" />
+                <element signature="method#insert#0;class#RBTree#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tree/BST/BST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="287" column="9" lean-forward="true" selection-start-line="287" selection-start-column="9" selection-end-line="287" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6068#6069#0" expanded="true" />
+                <element signature="e#6106#6107#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,7 +94,6 @@
         <option value="$PROJECT_DIR$/src/Graph/Version1/WeightTree/Edge.java" />
         <option value="$PROJECT_DIR$/src/Graph/Version1/WeightTree/GraphWithWeight.java" />
         <option value="$PROJECT_DIR$/src/Tree/HuffmanTree/HuffmanTree.java" />
-        <option value="$PROJECT_DIR$/src/Tree/BST/BST.java" />
         <option value="$PROJECT_DIR$/src/Set/Set.java" />
         <option value="$PROJECT_DIR$/src/Map/Map.java" />
         <option value="$PROJECT_DIR$/src/Set/BSTSet.java" />
@@ -122,6 +124,7 @@
         <option value="$PROJECT_DIR$/src/Tree/Trie/Leecode677/MapSum.java" />
         <option value="$PROJECT_DIR$/src/Tree/AVL/AVL.java" />
         <option value="$PROJECT_DIR$/src/Tree/RBTree/Test.java" />
+        <option value="$PROJECT_DIR$/src/Tree/BST/BST.java" />
         <option value="$PROJECT_DIR$/src/Tree/RBTree/RBTree.java" />
       </list>
     </option>
@@ -175,7 +178,7 @@
               <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="RBTree" type="462c0819:PsiDirectoryNode" />
+              <item name="BST" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,7 +351,7 @@
       <workItem from="1544434601808" duration="3350000" />
       <workItem from="1544516813169" duration="6175000" />
       <workItem from="1544628151032" duration="2483000" />
-      <workItem from="1544673959872" duration="21480000" />
+      <workItem from="1544673959872" duration="29814000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -438,7 +441,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201484000" />
+    <option name="totallyTimeSpent" value="209818000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,7 +456,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49821427" weight="0.22103004" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.22103004" />
       <window_info id="Structure" order="1" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -463,7 +466,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35180724" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35180724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -796,18 +799,6 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/12-AVL-Tree/06-LR-and-RL/src/AVLTree.java" />
     <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/12-AVL-Tree/07-Remove-Elements-in-AVL-Tree/src/AVLTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/Tree/BST/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="273" column="23" lean-forward="true" selection-start-line="273" selection-start-column="23" selection-end-line="273" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6068#6069#0" expanded="true" />
-            <element signature="e#6106#6107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/SegmentTree/SegmentTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2247">
@@ -850,8 +841,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/RBTree/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4856">
-          <caret line="451" column="36" selection-start-line="451" selection-start-column="36" selection-end-line="451" selection-end-column="36" />
+        <state relative-caret-position="228">
+          <caret line="615" column="9" lean-forward="true" selection-start-line="615" selection-start-column="9" selection-end-line="615" selection-end-column="9" />
           <folding>
             <element signature="e#966#967#0" expanded="true" />
             <element signature="e#992#993#0" expanded="true" />
@@ -860,11 +851,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/BST/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="287" column="9" lean-forward="true" selection-start-line="287" selection-start-column="9" selection-end-line="287" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6068#6069#0" expanded="true" />
+            <element signature="e#6106#6107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/RBTree/RBTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="307" column="44" selection-start-line="307" selection-start-column="44" selection-end-line="307" selection-end-column="44" />
+        <state relative-caret-position="270">
+          <caret line="525" column="48" selection-start-line="525" selection-start-column="48" selection-end-line="525" selection-end-column="48" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#523#524#0" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
             <element signature="e#833#834#0" expanded="true" />
@@ -877,7 +881,10 @@
             <element signature="e#1168#1169#0" expanded="true" />
             <element signature="e#1213#1214#0" expanded="true" />
             <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#2287#2288#0" expanded="true" />
+            <element signature="e#2394#2395#0" expanded="true" />
+            <element signature="method#rightRotate#0;class#RBTree#0" />
+            <element signature="method#insert#0;class#RBTree#0" />
+            <element signature="method#insert#0;class#RBTree#0" />
           </folding>
         </state>
       </provider>

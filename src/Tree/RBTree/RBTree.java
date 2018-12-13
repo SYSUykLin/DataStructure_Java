@@ -1,5 +1,10 @@
 package Tree.RBTree;
 
+import org.omg.CORBA.NO_IMPLEMENT;
+import sun.plugin2.message.TextEventMessage;
+
+import java.util.Random;
+
 public class RBTree<T extends Comparable<T>> {
     private class Node<T extends Comparable<T>> {
         public boolean color;
@@ -231,17 +236,16 @@ public class RBTree<T extends Comparable<T>> {
                     setBlack(parent);
                     setRed(grandParent);
                     node = grandParent;
+                    parent = node.parent;
                     continue;
                 }
-                //fifth condition,the uncle is black and left child of the current node
+                //fourth condition,the uncle is black and left child of the current node is red
                 if (parent.right == node) {
                     Node<T> temp;
                     leftRotate(parent);
-                    temp = parent;
-                    parent = node;
-                    node = temp;
+                    node = parent;
                 }
-                //fourth condiction,same as above but the right child of the current node.
+                //fifth condiction,same as above but the right child of the current node.
                 setBlack(parent);
                 setRed(grandParent);
                 rightRotate(grandParent);
@@ -348,7 +352,6 @@ public class RBTree<T extends Comparable<T>> {
     public void insert(T e) {
         Node<T> node = new Node<T>(e, RED, null, null, null);
 
-        // 如果新建结点失败，则返回。
         if (node != null)
             insert(node);
     }
@@ -451,11 +454,79 @@ public class RBTree<T extends Comparable<T>> {
         }
     }
 
+    public Node<T> removeRur(T key){
+        Node<T> node = search(key);
+        if (node != null){
+            root = removeRur(root, key);
+            return node;
+        }
+        return null;
+    }
+
+    private Node<T> removeRur(Node<T> node, T e){
+        if (node == null){
+            return null;
+        }else if (e.compareTo(node.key) < 0){
+            Node<T> temp = removeRur(node.left, e);
+            temp.parent = node;
+            node.left = temp;
+            return node;
+        }else if (e.compareTo(node.key) > 0){
+            Node<T> temp = removeRur(node.right, e);
+            temp.parent = node;
+            node.right = temp;
+            return node;
+        }else {
+            if (node.left == null){
+                Node<T> node1 = node.right;
+                node.right = null;
+                return node1;
+            }else if (node.right == null){
+                Node<T> node1 = node.left;
+                node.left = null;
+                return node1;
+            }else {
+                Node<T> right = minimum(node.right);
+                Node<T> successor = new Node<>(right.key, right.color, right.parent, right.left, right.right);
+                successor.left = node.left;
+                node.left.parent = successor;
+                Node<T> node1 = removeMin(node.right);
+                successor.right = node1;
+                node1.parent = successor;
+                node.left = node.right = null;
+                return successor;
+            }
+        }
+    }
+
+    private Node removeMin(Node<T> node){
+        if (node == null){
+            return null;
+        }else {
+            if (node.left != null){
+                Node<T> temp = removeMin(node.left);
+                temp.parent = node;
+                node.left = temp;
+            }else {
+                Node<T> right = node.right;
+                node.right = null;
+                return node.right;
+            }
+        }
+        return node;
+    }
+
     public static void main(String[] args) {
         RBTree<Integer> rbTree = new RBTree<>();
         int a[] = {10, 20, 30, 40, 50, 60, 70, 80, 90};
         for (int i = 0; i < a.length; i++) {
             rbTree.insert(a[i]);
+        }
+        for (int i = 0; i < 100; i++) {
+            rbTree.insert(new Random().nextInt());
+        }
+        for (int i = 0; i < 100; i++) {
+            rbTree.remove(new Random().nextInt());
         }
         rbTree.inOrder();
         rbTree.remove(30);
