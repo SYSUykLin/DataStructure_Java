@@ -2,27 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmVisualizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template/AlgorithmFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template/AlgorithmHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template/AlgorithmVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/AlgorithmFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/AlgorithmHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/AlgorithmVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/InsertionSortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/AlgorithmFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/AlgorithmHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/AlgorithmVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/SelectionSortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmFrame$AlgorithmCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer$AlgoKeyListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer$AlgoMouseListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/AlgorithmFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/AlgorithmHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/AlgorithmVisualizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/GetPI/AlgorithmFrame$AlgorithmCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/GetPI/AlgorithmFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/GetPI/AlgorithmHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/GetPI/AlgorithmVisualizer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/GetPI/AlgorithmVisualizer$AlgoKeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/GetPI/AlgorithmVisualizer$AlgoMouseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/GetPI/AlgorithmVisualizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/GetPI/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/GetPI/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability_Money/AlgorithmFrame$AlgorithmCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability_Money/AlgorithmFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability_Money/AlgorithmHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability_Money/AlgorithmVisualizer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability_Money/AlgorithmVisualizer$AlgoKeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability_Money/AlgorithmVisualizer$AlgoMouseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability_Money/AlgorithmVisualizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability_Money/Main.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +43,35 @@
     <favorites_list name="DataStructure_Java" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/InsertionSortData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/AlgorithmVisualizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="4" column="102" selection-start-line="4" selection-start-column="102" selection-end-line="4" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,14 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/List/Leecode203/Solution.java" />
-        <option value="$PROJECT_DIR$/src/Graph/Version1/WeightTree/Edge.java" />
-        <option value="$PROJECT_DIR$/src/Graph/Version1/WeightTree/GraphWithWeight.java" />
-        <option value="$PROJECT_DIR$/src/Tree/HuffmanTree/HuffmanTree.java" />
-        <option value="$PROJECT_DIR$/src/Set/Set.java" />
-        <option value="$PROJECT_DIR$/src/Map/Map.java" />
-        <option value="$PROJECT_DIR$/src/Set/BSTSet.java" />
-        <option value="$PROJECT_DIR$/src/Set/Leecode804/Solution.java" />
         <option value="$PROJECT_DIR$/src/Map/BSTMap.java" />
         <option value="$PROJECT_DIR$/src/Array/Array.java" />
         <option value="$PROJECT_DIR$/src/Queue/PriorityQueue.java" />
@@ -103,6 +131,14 @@
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmFrame.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmVisualizer.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/Main.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/AlgorithmFrame.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/SelectionSortData.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/AlgorithmVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/main.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/InsertionSortData.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/AlgorithmFrame.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/AlgorithmVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/main.java" />
       </list>
     </option>
   </component>
@@ -149,6 +185,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ApplicationOfAlgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationOfAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationOfAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+              <item name="Insertion" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -169,6 +220,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion" />
+      <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection" />
       <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template" />
       <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI" />
       <recent name="$PROJECT_DIR$/src/Tree/SegmentTree/Leecode307" />
@@ -186,20 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="AVL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.AVL.AVL" />
-      <module name="DataStructure_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.AVL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ApplicationOfAlgorithm.GetPI.Main" />
       <module name="DataStructure_Java" />
@@ -252,12 +292,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Trie.Trie" />
+    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApplicationOfAlgorithm.Sort.Insertion.main" />
       <module name="DataStructure_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.Trie.*" />
+          <option name="PATTERN" value="ApplicationOfAlgorithm.Sort.Insertion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApplicationOfAlgorithm.Sort.Selection.main" />
+      <module name="DataStructure_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApplicationOfAlgorithm.Sort.Selection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,19 +319,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Trie" />
-      <item itemvalue="Application.AVL" />
       <item itemvalue="Application.RBTree" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main (1)" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.RBTree" />
-        <item itemvalue="Application.AVL" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +394,7 @@
       <workItem from="1545320169439" duration="3792000" />
       <workItem from="1545378380191" duration="11176000" />
       <workItem from="1545447210628" duration="7727000" />
-      <workItem from="1545538131503" duration="262000" />
+      <workItem from="1545538131503" duration="9734000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -431,7 +484,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236458000" />
+    <option name="totallyTimeSpent" value="245930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,6 +497,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.1788269" />
       <window_info id="Structure" order="1" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
@@ -478,7 +532,7 @@
       <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.17453505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.1788269" />
       <window_info id="Structure" order="1" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -488,7 +542,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35180724" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35180724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -524,94 +578,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Segment Tree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTable/HashTable.java" />
-    <entry file="file://$PROJECT_DIR$/src/HashTable/HashFunction.java" />
-    <entry file="file://$PROJECT_DIR$/src/HashTable/Leecode387/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnionFind/UnionFindByTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-          <folding>
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/SegmentTree/Merger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/09-Segment-Tree/03-Building-Segment-Tree/src/SegmentTree.java" />
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/09-Segment-Tree/03-Building-Segment-Tree/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Tree/SegmentTree/Leecode303/NumArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/SegmentTree/Leecode307/NumArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="97" column="38" lean-forward="true" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashTable/Hash_Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
-          <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
-          <folding>
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#2218#2219#0" expanded="true" />
-            <element signature="e#2278#2279#0" expanded="true" />
-            <element signature="e#2305#2306#0" expanded="true" />
-            <element signature="e#2357#2358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Leecode208/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/10-Trie/05-Trie-and-Pattern-Match/src/WordDictionary.java" />
     <entry file="file://$PROJECT_DIR$/src/Tree/Trie/Leecode211/WordDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -922,6 +888,92 @@
             <element signature="e#322#323#0" expanded="true" />
             <element signature="e#2535#2536#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/AlgorithmHelper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/04-Sort-Visualization/02-More-about-Selection-Sort-Visualization/src/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="71" column="29" lean-forward="true" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/04-Sort-Visualization/02-More-about-Selection-Sort-Visualization/src/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="98" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/AlgorithmVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/SelectionSortData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/AlgorithmHelper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/AlgorithmFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/AlgorithmFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="58" column="83" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/InsertionSortData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/AlgorithmVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="102" selection-start-line="4" selection-start-column="102" selection-end-line="4" selection-end-column="102" />
         </state>
       </provider>
     </entry>
