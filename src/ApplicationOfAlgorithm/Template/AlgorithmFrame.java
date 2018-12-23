@@ -1,4 +1,4 @@
-package ApplicationOfAlgorithm.Probability;
+package ApplicationOfAlgorithm.Template;
 
 import javax.swing.*;
 import java.awt.*;
@@ -19,10 +19,10 @@ public class AlgorithmFrame extends JFrame {
         setVisible(true);
     }
 
-    private int[] money;
+    private Object data;
 
-    public void render(int[] money) {
-        this.money = money;
+    public void render(Object data) {
+        this.data = data;
         repaint();
     }
 
@@ -48,11 +48,6 @@ public class AlgorithmFrame extends JFrame {
             hints.put(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY);
             graphics2D.addRenderingHints(hints);
 
-            AlgorithmHelper.setColor(graphics2D, AlgorithmHelper.Blue);
-            int w = canvasWidth / money.length;
-            for (int i = 0; i < money.length; i++) {
-                AlgorithmHelper.fillRectangle(graphics2D, i * w + 1, canvasHeight - money[i], w - 1, money[i]);
-            }
         }
 
         @Override

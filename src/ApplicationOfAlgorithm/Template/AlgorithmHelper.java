@@ -1,4 +1,4 @@
-package ApplicationOfAlgorithm.Probability;
+package ApplicationOfAlgorithm.Template;
 
 import javax.swing.*;
 import java.awt.*;

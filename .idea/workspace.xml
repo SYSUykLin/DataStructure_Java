@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer.java" line="31" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template/AlgorithmFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template/AlgorithmHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template/AlgorithmVisualizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmFrame$AlgorithmCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer$AlgoKeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer$AlgoMouseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Probability/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/AlgorithmFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/AlgorithmHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/AlgorithmVisualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,43 +35,7 @@
     <favorites_list name="DataStructure_Java" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,12 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Graph/Version1/BFS.java" />
-        <option value="$PROJECT_DIR$/src/Graph/Version1/Edge.java" />
-        <option value="$PROJECT_DIR$/src/HuffmanTree/HuffmanTree.java" />
-        <option value="$PROJECT_DIR$/src/Stack/ImplementStack/Stack.java" />
-        <option value="$PROJECT_DIR$/src/Stack/ImplementStack/ArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/List/Leecode203/ListNode.java" />
         <option value="$PROJECT_DIR$/src/List/Leecode203/Solution.java" />
         <option value="$PROJECT_DIR$/src/Graph/Version1/WeightTree/Edge.java" />
         <option value="$PROJECT_DIR$/src/Graph/Version1/WeightTree/GraphWithWeight.java" />
@@ -124,9 +94,15 @@
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Main.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/AlgoVisualizer.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmHelper.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/Main.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmFrame.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/Main.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/AlgorithmVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template/AlgorithmFrame.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/Circle.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmFrame.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/Main.java" />
       </list>
     </option>
   </component>
@@ -154,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -174,17 +149,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ApplicationOfAlgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ApplicationOfAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Probability" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -200,6 +169,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template" />
+      <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI" />
       <recent name="$PROJECT_DIR$/src/Tree/SegmentTree/Leecode307" />
     </key>
   </component>
@@ -230,11 +201,11 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ApplicationOfAlgorithm.Probability.Main" />
+      <option name="MAIN_CLASS_NAME" value="ApplicationOfAlgorithm.GetPI.Main" />
       <module name="DataStructure_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ApplicationOfAlgorithm.Probability.*" />
+          <option name="PATTERN" value="ApplicationOfAlgorithm.GetPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,6 +219,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ApplicationOfAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApplicationOfAlgorithm.Probability_Money.Main" />
+      <module name="DataStructure_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApplicationOfAlgorithm.Probability_Money.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,10 +275,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.RBTree" />
         <item itemvalue="Application.AVL" />
-        <item itemvalue="Application.Trie" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +339,9 @@
       <workItem from="1544673959872" duration="30161000" />
       <workItem from="1545144171921" duration="3336000" />
       <workItem from="1545320169439" duration="3792000" />
-      <workItem from="1545378380191" duration="10741000" />
+      <workItem from="1545378380191" duration="11176000" />
+      <workItem from="1545447210628" duration="7727000" />
+      <workItem from="1545538131503" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -445,7 +431,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228034000" />
+    <option name="totallyTimeSpent" value="236458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,9 +444,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.17453505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.1788269" />
       <window_info id="Structure" order="1" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -470,7 +455,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35180724" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35180724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,70 +524,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Segment Tree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="544" selection-start-line="544" selection-end-line="544" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Heap/MaxHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2916">
-          <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/Solution2.java" />
-    <entry file="file://$USER_HOME$/Desktop/course/039 玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master/08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/Solution.java" />
-    <entry file="file://$PROJECT_DIR$/src/Queue/Leecode347/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compress.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnionFind/UnionFindByArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnionFind/UnionFind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTable/HashTable.java" />
     <entry file="file://$PROJECT_DIR$/src/HashTable/HashFunction.java" />
     <entry file="file://$PROJECT_DIR$/src/HashTable/Leecode387/Solution.java">
@@ -812,16 +733,7 @@
     <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/02-Java-Swing-Basics/08-MVC-in-Algorithm-Visualization/src/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/AlgoVisHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/AlgoVisHelper.java" />
     <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/02-Java-Swing-Basics/08-MVC-in-Algorithm-Visualization/src/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -846,37 +758,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/AlgorFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
-          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/AlgoVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/AlgorFrame.java" />
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Circle.java" />
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/AlgoVisualizer.java" />
     <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
@@ -918,7 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/AlgorithmHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
@@ -930,41 +814,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/02-Java-Swing-Basics/11-Templates/src/AlgoFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="320">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer.java">
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/AlgorithmFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="1612">
+          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template/AlgorithmVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/AlgorithmVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="318">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="762">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template/AlgorithmFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template/AlgorithmHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1959">
+          <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#2535#2536#0" expanded="true" />
           </folding>
         </state>
       </provider>
