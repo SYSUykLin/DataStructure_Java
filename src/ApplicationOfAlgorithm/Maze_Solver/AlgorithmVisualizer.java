@@ -13,7 +13,7 @@ public class AlgorithmVisualizer {
     private int DELAY = 5;
     private MazeData data;
     private AlgorithmFrame frame;
-    private static int blockSick = 5;
+    private static int blockSick = 3;
     private static final int[][] direction = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
     public AlgorithmVisualizer(String fileName) {
@@ -46,12 +46,12 @@ public class AlgorithmVisualizer {
 
     private void run() {
         setData(-1, -1, false);
-//        if (!go(data.getEntanceX(), data.getEntanceY())) {
-//            System.out.println("Maze has no solution!");
-//        }
-        if (!go_iteration()) {
+        if (!go(data.getEntanceX(), data.getEntanceY())) {
             System.out.println("Maze has no solution!");
         }
+//        if (!go_iteration()) {
+//            System.out.println("Maze has no solution!");
+//        }
 //        if (!go_level()) {
 //            System.out.println("Maze has no solution!");
 //        }
