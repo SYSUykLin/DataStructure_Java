@@ -2,32 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/AlgorithmFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/AlgorithmHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/AlgorithmVisualizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/MineSweeperData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/block.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/mine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/AlgorithmFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/AlgorithmHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/AlgorithmVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/BackGroundData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/Boy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/Box_target.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/box.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/glass.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/home.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/humanBack.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/humanFront.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/humanLeft.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/humanRight.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/target.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Maze_Generator/AlgorithmVisualizer$AlgoKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Maze_Generator/AlgorithmVisualizer$AlgoKeyListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Maze_Generator/AlgorithmVisualizer$AlgoMouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Maze_Generator/AlgorithmVisualizer$AlgoMouseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Maze_Generator/AlgorithmVisualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Maze_Generator/AlgorithmVisualizer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Maze_Generator/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Maze_Generator/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Maze_Solver/AlgorithmVisualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Maze_Solver/AlgorithmVisualizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Generator/AlgorithmVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Generator/AlgorithmVisualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Maze_Solver/MazeFile/maze_101_101.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure_Java/ApplicationOfAlgorithm/Maze_Solver/MazeFile/maze_101_101.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Generator/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Generator/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Solver/MazeFile/maze_201_201.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Solver/MazeFile/maze_201_201.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Solver/MazeFile/maze_101_101.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Solver/MazeFile/maze_101_101.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,33 +44,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/main.java">
+        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/BackGroundData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/AlgorithmVisualizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="59" column="91" selection-start-line="59" selection-start-column="91" selection-end-line="59" selection-end-column="91" />
+            <state relative-caret-position="2668">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
               <folding>
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <marker date="1545895021945" expanded="true" signature="2657:2872" ph="..." />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3149#3150#0" expanded="true" />
+                <element signature="e#3175#3176#0" expanded="true" />
+                <element signature="e#3217#3218#0" expanded="true" />
+                <element signature="e#3260#3261#0" expanded="true" />
+                <element signature="e#4668#4669#0" expanded="true" />
+                <element signature="e#4714#4715#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/MineSweeperData.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map4.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1644">
-              <caret line="124" column="25" lean-forward="true" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
+            <state relative-caret-position="124">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -90,21 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tree/BST/BST.java" />
-        <option value="$PROJECT_DIR$/src/Tree/RBTree/RBTree.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/AlgoVisHelper.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Circle.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/AlgorFrame.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Main.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/AlgoVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmHelper.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/Main.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmFrame.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability/AlgorithmVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Probability_Money/AlgorithmVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Template/AlgorithmFrame.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/Circle.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmFrame.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/AlgorithmVisualizer.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/GetPI/Main.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/AlgorithmFrame.java" />
@@ -136,11 +118,26 @@
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Generator/RandomQueue.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Generator/AlgorithmVisualizer.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Solver/AlgorithmVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Generator/main.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/main.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/AlgorithmFrame.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/MineSweeperData.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/AlgorithmVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/AlgorithmHelper.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/Target.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/Box.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Generator/main.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map.txt" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/main.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/AlgorithmFrame.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/Boy.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/BackGroundData.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map0.txt" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/AlgorithmVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map1.txt" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map2.txt" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map3.txt" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map4.txt" />
       </list>
     </option>
   </component>
@@ -168,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,12 +188,21 @@
               <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ApplicationOfAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Mine" type="462c0819:PsiDirectoryNode" />
+              <item name="MoveTheBox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationOfAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="MoveTheBox" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -218,11 +223,11 @@
       <recent name="ApplicationOfAlgorithm.Sort.QuickSort" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs" />
+      <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox" />
       <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine" />
       <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Generator" />
       <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Solver" />
-      <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Solver/MazeFile" />
-      <recent name="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/HeapSort" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,13 +242,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ApplicationOfAlgorithm.Sort.MergeSort.main" />
+  <component name="RunManager" selected="Application.main (1)">
+    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApplicationOfAlgorithm.MoveTheBox.main" />
       <module name="DataStructure_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ApplicationOfAlgorithm.Sort.MergeSort.*" />
+          <option name="PATTERN" value="ApplicationOfAlgorithm.MoveTheBox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,19 +309,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.main (2)" />
       <item itemvalue="Application.main (3)" />
       <item itemvalue="Application.main (4)" />
       <item itemvalue="Application.main (5)" />
       <item itemvalue="Application.main" />
+      <item itemvalue="Application.main (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.main (1)" />
         <item itemvalue="Application.main (5)" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.main (4)" />
         <item itemvalue="Application.main (3)" />
-        <item itemvalue="Application.main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +390,8 @@
       <workItem from="1545727298775" duration="1250000" />
       <workItem from="1545806688154" duration="350000" />
       <workItem from="1545837690058" duration="2978000" />
-      <workItem from="1545881907772" duration="10745000" />
+      <workItem from="1545881907772" duration="12966000" />
+      <workItem from="1545900753347" duration="16333000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -475,7 +481,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301594000" />
+    <option name="totallyTimeSpent" value="320148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,7 +496,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.19170243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.19456366" />
       <window_info id="Structure" order="1" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -500,7 +506,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.35180724" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.35180724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,7 +529,7 @@
       <window_info anchor="right" id="Maven" order="9" weight="0.3297568" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.19170243" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.19456366" />
       <window_info id="Structure" order="1" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -533,7 +539,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.35180724" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.35180724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -569,154 +575,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Segment Tree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/AlgorithmFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/InsertionSortData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/AlgorithmFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Insertion/AlgorithmVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/MergeSort/AlgorithmHelper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/Selection/SelectionSortData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/MergeSort/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="98" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/MergeSort/MergeData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/MergeSort/AlgorithmFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/QuickSort/AlgorithmHelper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/MergeSort/AlgorithmVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/04-Sort-Visualization/07-Quick-Sort-Visualization/src/AlgoVisualizer.java" />
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/QuickSort/AlgorithmVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/QuickSort/AlgorithmFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/QuickSort/QuickSortData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/QuickSort/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/HeapSort/AlgorithmFrame.java" />
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/HeapSort/AlgorithmHelper.java" />
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/HeapSort/AlgorithmVisualizer.java" />
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Sort/HeapSort/main.java" />
-    <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/05-Maze-Solver/02-Maze-Visualization/src/AlgoFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1641">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/05-Maze-Solver/02-Maze-Visualization/src/AlgoVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/05-Maze-Solver/06-Non-Recursive-DFS-Maze-Solver/src/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/05-Maze-Solver/06-Non-Recursive-DFS-Maze-Solver/src/AlgoVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Solver/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Solver/AlgorithmFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1798">
@@ -789,27 +647,10 @@
         <state relative-caret-position="-7936" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Solver/MazeData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Solver/AlgorithmVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Generator/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="82" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -843,28 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/AlgorithmFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#2526#2527#0" expanded="true" />
-            <element signature="e#2597#2598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/07-Mine-Sweeper/04-Interactions-in-Mine-Sweeper/src/AlgoFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1709">
@@ -895,13 +714,226 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/AlgorithmVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="59" column="91" selection-start-line="59" selection-start-column="91" selection-end-line="59" selection-end-column="91" />
+        <state relative-caret-position="321">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#1252#1253#0" expanded="true" />
             <element signature="e#1277#1278#0" expanded="true" />
             <marker date="1545895021945" expanded="true" signature="2657:2872" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/08-Move-the-Box-Solver/02-Move-the-Box-Data/src/GameData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/0.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/home.GIF">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/target.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/humanFront.GIF">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/humanLeft.GIF">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/humanRight.GIF">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/humanBack.GIF">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/box.GIF">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/glass.GIF">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/Box_target.GIF">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Solver/MazeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/AlgorithmFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-961">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/AlgorithmHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Maze_Generator/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map5.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/Boy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/AlgorithmFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/AlgorithmVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/BackGroundData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2668">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3149#3150#0" expanded="true" />
+            <element signature="e#3175#3176#0" expanded="true" />
+            <element signature="e#3217#3218#0" expanded="true" />
+            <element signature="e#3260#3261#0" expanded="true" />
+            <element signature="e#4668#4669#0" expanded="true" />
+            <element signature="e#4714#4715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/imgs/map4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
