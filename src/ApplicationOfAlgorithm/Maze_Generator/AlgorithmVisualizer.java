@@ -47,12 +47,13 @@ public class AlgorithmVisualizer {
         setData(-1, -1);
         //go(data.getEntranceX(), data.getEntranceY() + 1);
         //go_iterator();
-        go_level();
+        String fileName = go_level();
         setData(-1, -1);
-        ApplicationOfAlgorithm.Maze_Solver.AlgorithmVisualizer algorithmVisualizer1 = new ApplicationOfAlgorithm.Maze_Solver.AlgorithmVisualizer("src/ApplicationOfAlgorithm/Maze_Solver/MazeFile/maze_201_201.txt");
+        ApplicationOfAlgorithm.Maze_Solver.AlgorithmVisualizer algorithmVisualizer1
+                = new ApplicationOfAlgorithm.Maze_Solver.AlgorithmVisualizer("src/ApplicationOfAlgorithm/Maze_Solver/MazeFile/" + fileName);
     }
 
-    private void go_level() {
+    private String go_level() {
         RandomQueue<Position> stack = new RandomQueue<>();
         Position firstPosition = new Position(data.getEntranceX(), data.getEntranceY() + 1);
         stack.add(firstPosition);
@@ -73,7 +74,8 @@ public class AlgorithmVisualizer {
             }
         }
         packageMaze("maze_" + data.getN() + '_' + data.getM() + ".txt");
-
+        String fileName = "maze_" + data.getN() + '_' + data.getM() + ".txt";
+        return fileName;
     }
 
     private void go_iterator() {
