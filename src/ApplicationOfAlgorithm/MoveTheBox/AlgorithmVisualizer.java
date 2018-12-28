@@ -1,6 +1,7 @@
 package ApplicationOfAlgorithm.MoveTheBox;
 
 import ApplicationOfAlgorithm.MoveTheBox.Entity.BackGroundData;
+import ApplicationOfAlgorithm.MoveTheBox.Entity.User;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,6 +15,7 @@ public class AlgorithmVisualizer {
     private AlgorithmFrame frame;
     private int round = 0;
     private int[][] direction = {{0, -1}, {1, 0}, {0, 1}, {-1, 0}};
+    private User user;
 
     public AlgorithmVisualizer(String url) {
         data = new BackGroundData(url);
@@ -21,6 +23,7 @@ public class AlgorithmVisualizer {
         int sceneHeight = 30 * BackGroundData.width;
         EventQueue.invokeLater(() -> {
             frame = new AlgorithmFrame(url, sceneWidth, sceneHeight);
+            user = new User(data, frame);
             frame.addKeyListener(new AlgoKeyListener());
             frame.addMouseListener(new AlgoMouseListener());
             new Thread(() -> {
@@ -30,8 +33,11 @@ public class AlgorithmVisualizer {
     }
 
     private void run() {
+//        setData();
+//        user.play(data.getBoy().getX(), data.getBoy().getY());
         while (true) {
             setData();
+//            user.play();
             if (data.isWin()){
                 JOptionPane.showMessageDialog(frame, "Win", "Alert", JOptionPane.DEFAULT_OPTION);
                 String a = "map" + (++round)%4 + ".txt";

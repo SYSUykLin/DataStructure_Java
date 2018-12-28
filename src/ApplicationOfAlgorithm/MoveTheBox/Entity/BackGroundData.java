@@ -40,14 +40,35 @@ public class BackGroundData {
     public static final int BoyLeft = 6;
     public static final int BoyRight = 7;
     public static final int BoyBack = 8;
-    public static final int RIGHT = 9;
+    public static final int LEFT = 9;
     public static final int UP = 10;
-    public static final int LEFT = 11;
+    public static final int RIGHT = 11;
     public static final int DOWN = 12;
     private Boy boy;
+
+    public ArrayList<Box> getBox() {
+        return box;
+    }
+
     private ArrayList<Box> box;
+
+    public ArrayList<Target> getTargets() {
+        return targets;
+    }
+
     private ArrayList<Target> targets;
     public int[][] map;
+
+    public BackGroundData(BackGroundData backGroundData){
+        this.map = backGroundData.map;
+        this.N = backGroundData.getN();
+        this.M = backGroundData.getM();
+        this.boy = backGroundData.getBoy();
+        this.box = backGroundData.getBox();
+        this.targets = backGroundData.getTargets();
+        width = N;
+        height = M;
+    }
 
     public BackGroundData(String mapURL) {
         box = new ArrayList<>();
