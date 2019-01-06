@@ -50,7 +50,9 @@ public class AlgorithmFrame extends JFrame {
             graphics2D.addRenderingHints(hints);
 
             //drawFractal(graphics2D, 0, 0, canvasWidth, canvasHeight, 0);
-            drawFractal_Triangle(graphics2D, 0, canvasHeight, canvasWidth, 0);
+            //drawFractal_Triangle(graphics2D, 0, canvasHeight, canvasWidth, 0);
+            int side = canvasWidth / 3;
+            drawSnow(graphics2D, 0, canvasHeight-3, canvasWidth, 0, 0);
         }
 
         public void drawFractal(Graphics2D graphics2D, int x, int y, int w, int h, int depth) {
@@ -123,6 +125,34 @@ public class AlgorithmFrame extends JFrame {
             drawFractal_Triangle(graphics2D, Ax, Ay, size / 2, depth + 1);
             drawFractal_Triangle(graphics2D, AC_centerX, AC_centerY, size / 2, depth + 1);
             drawFractal_Triangle(graphics2D, AB_centerX, AB_centerY, size / 2, depth + 1);
+        }
+
+        public void drawSnow(Graphics2D graphics2D, double x1, double y1, double side, double angle, int depth) {
+            if (side <= 0) {
+                return;
+            }
+            if (depth == data.getDepth()) {
+                double x2 = x1 + side * Math.cos(angle * Math.PI / 180.0);
+                double y2 = y1 - side * Math.sin(angle * Math.PI / 180.0);
+                AlgorithmHelper.setColor(graphics2D, AlgorithmHelper.DeepOrange);
+                AlgorithmHelper.drawLine(graphics2D, x1, y1, x2, y2);
+                return;
+            }
+            double side_3 = side / 3;
+            double x2 = x1 + side_3 * Math.cos(angle * Math.PI / 180.0);
+            double y2 = y1 - side_3 * Math.sin(angle * Math.PI / 180.0);
+            drawSnow(graphics2D, x1, y1, side_3, angle, depth + 1);
+
+            double x3 = x2 + side_3 * Math.cos((angle + 60.0) * Math.PI / 180.0);
+            double y3 = y2 - side_3 * Math.sin((angle + 60.0) * Math.PI / 180.0);
+            drawSnow(graphics2D, x2, y2, side_3, angle + 60, depth + 1);
+
+            double x4 = x3 + side_3 * Math.cos((angle - 60.0) * Math.PI / 180.0);
+            double y4 = y3 - side_3 * Math.sin((angle - 60.0) * Math.PI / 180.0);
+            drawSnow(graphics2D, x3, y3, side_3, angle - 60, depth + 1);
+
+            drawSnow(graphics2D, x4, y4, side_3, angle, depth + 1);
+            return;
         }
 
         @Override

@@ -10,10 +10,15 @@ public class AlgorithmVisualizer {
     private FractalData data;
     private AlgorithmFrame frame;
 
-    public AlgorithmVisualizer(int maxDepth) {
+    public AlgorithmVisualizer(int maxDepth, int side) {
         data = new FractalData(maxDepth);
-        int sceneWidth = (int) Math.pow(2, maxDepth);
-        int sceneHeight = (int) Math.pow(2, maxDepth);
+        //int sceneWidth = (int) Math.pow(2, maxDepth);
+        //int sceneHeight = (int) Math.pow(2, maxDepth);
+        //int sceneWidth = (int) Math.pow(3, maxDepth);
+        //int sceneHeight = (int) Math.pow(3, maxDepth);
+
+        int sceneWidth = 3*side;
+        int sceneHeight = 6*side;
         EventQueue.invokeLater(() -> {
             frame = new AlgorithmFrame("Fractal", sceneWidth, sceneHeight);
             frame.addKeyListener(new AlgoKeyListener());
