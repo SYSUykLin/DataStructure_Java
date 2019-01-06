@@ -10,6 +10,19 @@ public class AlgorithmVisualizer {
     private FractalData data;
     private AlgorithmFrame frame;
 
+    public AlgorithmVisualizer(int sceneWidth, int sceneHeight, int maxDepth, double splitAngle){
+        data = new FractalData(maxDepth, splitAngle);
+        EventQueue.invokeLater(() -> {
+            frame = new AlgorithmFrame("Tree", sceneWidth, sceneHeight);
+            frame.addKeyListener(new AlgoKeyListener());
+            frame.addMouseListener(new AlgoMouseListener());
+            new Thread(() -> {
+                run();
+            }).start();
+        });
+
+    }
+
     public AlgorithmVisualizer(int maxDepth, int side) {
         data = new FractalData(maxDepth);
         //int sceneWidth = (int) Math.pow(2, maxDepth);
@@ -18,7 +31,7 @@ public class AlgorithmVisualizer {
         //int sceneHeight = (int) Math.pow(3, maxDepth);
 
         int sceneWidth = 3*side;
-        int sceneHeight = 6*side;
+        int sceneHeight = side;
         EventQueue.invokeLater(() -> {
             frame = new AlgorithmFrame("Fractal", sceneWidth, sceneHeight);
             frame.addKeyListener(new AlgoKeyListener());

@@ -52,7 +52,8 @@ public class AlgorithmFrame extends JFrame {
             //drawFractal(graphics2D, 0, 0, canvasWidth, canvasHeight, 0);
             //drawFractal_Triangle(graphics2D, 0, canvasHeight, canvasWidth, 0);
             int side = canvasWidth / 3;
-            drawSnow(graphics2D, 0, canvasHeight-3, canvasWidth, 0, 0);
+            //drawSnow(graphics2D, 0, canvasHeight - 3, canvasWidth, 0, 0);
+            drawTree(graphics2D, canvasWidth / 2, canvasHeight, canvasHeight, 90, 0);
         }
 
         public void drawFractal(Graphics2D graphics2D, int x, int y, int w, int h, int depth) {
@@ -152,6 +153,30 @@ public class AlgorithmFrame extends JFrame {
             drawSnow(graphics2D, x3, y3, side_3, angle - 60, depth + 1);
 
             drawSnow(graphics2D, x4, y4, side_3, angle, depth + 1);
+            return;
+        }
+
+        public void drawTree(Graphics2D graphics2D, double x1, double y1, double side, double angle, int depth) {
+            double side_2 = side / 2;
+            if (side_2 <= 0) {
+                return;
+            }
+            if (depth == data.getDepth()) {
+                double x2 = x1 - side * Math.cos(angle * Math.PI / 180.0);
+                double y2 = y1 - side * Math.sin(angle * Math.PI / 180.0);
+                AlgorithmHelper.setColor(graphics2D, AlgorithmHelper.Green);
+                AlgorithmHelper.drawLine(graphics2D, x1, y1, x2, y2);
+                return;
+            }
+            double x2 = x1 - side / 2 * Math.cos(angle * Math.PI / 180.0);
+            double y2 = y1 - side / 2 * Math.sin(angle * Math.PI / 180.0);
+            AlgorithmHelper.setColor(graphics2D, AlgorithmHelper.Brown);
+            AlgorithmHelper.drawLine(graphics2D, x1, y1, x2, y2);
+            drawTree(graphics2D, x2, y2, side / 2, angle + data.splitAngle / 2, depth + 1);
+            drawTree(graphics2D, x2, y2, side / 2, angle + data.splitAngle / 4, depth + 1);
+            drawTree(graphics2D, x2, y2, side / 2, angle - data.splitAngle / 2, depth + 1);
+            drawTree(graphics2D, x2, y2, side / 2, angle - data.splitAngle / 4, depth + 1);
+
             return;
         }
 

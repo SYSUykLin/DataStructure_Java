@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a022697-69cb-4a70-af3c-78531ea59daf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmVisualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/FractalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/FractalData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,21 +22,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="394">
+              <caret line="174" column="12" selection-start-line="174" selection-start-column="12" selection-end-line="174" selection-end-column="12" />
               <folding>
                 <element signature="method#drawFractal#0;class#AlgorithmCanvas#0;class#AlgorithmFrame#0" />
                 <element signature="method#drawFractal_Triangle#0;class#AlgorithmCanvas#0;class#AlgorithmFrame#0" />
+                <element signature="method#drawSnow#0;class#AlgorithmCanvas#0;class#AlgorithmFrame#0" />
+                <element signature="e#7952#7953#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmVisualizer.java">
+        <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="124">
+              <caret line="4" column="88" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -104,10 +106,10 @@
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/AlgorithmVisualizer.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/MoveTheBox/Entity/BackGroundData.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/main.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/FractalData.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/main.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmHelper.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/FractalData.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/main.java" />
         <option value="$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmFrame.java" />
       </list>
     </option>
@@ -360,7 +362,7 @@
       <workItem from="1546076090544" duration="584000" />
       <workItem from="1546666023339" duration="3700000" />
       <workItem from="1546696739250" duration="5018000" />
-      <workItem from="1546761322474" duration="5286000" />
+      <workItem from="1546761322474" duration="9798000" />
     </task>
     <task id="LOCAL-00001" summary="Graph">
       <created>1540987085545</created>
@@ -450,7 +452,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342146000" />
+    <option name="totallyTimeSpent" value="346658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,7 +467,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.21173105" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.21173105" />
       <window_info id="Structure" order="1" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -475,15 +477,15 @@
       <window_info id="Favorites" order="7" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.2614458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.2614458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39156628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32771084" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.3253012" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.35180724" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4985694" weight="0.3253012" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.3253012" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32771084" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -498,7 +500,7 @@
       <window_info anchor="right" id="Maven" order="9" weight="0.3297568" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.20886981" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49821427" visible="true" weight="0.21173105" />
       <window_info id="Structure" order="1" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -508,15 +510,15 @@
       <window_info id="Favorites" order="7" sideWeight="0.5017857" side_tool="true" weight="0.2067239" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.2614458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.2614458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39156628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32771084" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.3253012" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.35180724" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4985694" weight="0.3253012" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.3253012" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32771084" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -544,9 +546,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Segment Tree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/resources/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Mine/AlgorithmHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -838,26 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/FractalData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/09-Fractal-Drawing/06-Sierpinski-Triangle/src/AlgoFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2111">
@@ -873,13 +852,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -913,27 +885,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmHelper.java">
+    <entry file="file://$USER_HOME$/Desktop/course/[后端实战 ]深度实战玩转算法(1)/n1pr8g/09-Fractal-Drawing/08-Tree-Fractal/src/AlgoFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="97" column="30" lean-forward="true" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+        <state relative-caret-position="-2063">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/FractalData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="194">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="97" column="30" lean-forward="true" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="88" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ApplicationOfAlgorithm/Fractal/AlgorithmFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="394">
+          <caret line="174" column="12" selection-start-line="174" selection-start-column="12" selection-end-line="174" selection-end-column="12" />
           <folding>
             <element signature="method#drawFractal#0;class#AlgorithmCanvas#0;class#AlgorithmFrame#0" />
             <element signature="method#drawFractal_Triangle#0;class#AlgorithmCanvas#0;class#AlgorithmFrame#0" />
+            <element signature="method#drawSnow#0;class#AlgorithmCanvas#0;class#AlgorithmFrame#0" />
+            <element signature="e#7952#7953#0" expanded="true" />
           </folding>
         </state>
       </provider>
